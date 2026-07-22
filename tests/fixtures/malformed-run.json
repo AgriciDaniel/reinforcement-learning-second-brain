@@ -1,0 +1,5 @@
+{
+  "name": "malformed-run",
+  "config": {
+    "algorithm": "PPO"
+  },

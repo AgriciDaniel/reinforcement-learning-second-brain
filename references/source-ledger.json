@@ -1,0 +1,1298 @@
+{
+  "version": 1,
+  "status": "researched",
+  "domain": "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices",
+  "refresh_cadence": "monthly for fast-moving sources (LLM post-training, libraries); before every release for canonical claims",
+  "rules": {
+    "researched_requires": [
+      "at least two captured sources for fast-moving or high-stakes domains",
+      "at least one official/primary source for lower-risk domains",
+      "retrieved dates, refresh_due dates, source_type, confidence, and claim coverage",
+      "no placeholder/example URLs"
+    ],
+    "accepted_primary_types": [
+      "official",
+      "primary",
+      "vendor",
+      "regulator",
+      "government",
+      "standards",
+      "standards-body",
+      "authority",
+      "api-docs"
+    ]
+  },
+  "sources": [
+    {
+      "id": "sutton-barto-rl-book-2e",
+      "url": "http://incompleteideas.net/book/the-book-2nd.html",
+      "title": "Reinforcement Learning: An Introduction, 2nd Edition (Sutton and Barto, official book page)",
+      "date": "2018-01-01",
+      "source_type": "official",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "mdp-value-iteration-foundations",
+        "td-learning-vs-monte-carlo",
+        "on-policy-vs-off-policy-definitions"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "mdp-value-iteration-foundations",
+        "td-learning-vs-monte-carlo",
+        "on-policy-vs-off-policy-definitions"
+      ]
+    },
+    {
+      "id": "openai-spinning-up",
+      "url": "https://spinningup.openai.com/en/latest/",
+      "title": "OpenAI Spinning Up in Deep RL",
+      "date": "2018-11-01",
+      "source_type": "official",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "policy-gradient-derivation-walkthrough",
+        "algorithm-family-taxonomy"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "policy-gradient-derivation-walkthrough",
+        "algorithm-family-taxonomy"
+      ]
+    },
+    {
+      "id": "hf-deep-rl-course",
+      "url": "https://huggingface.co/learn/deep-rl-course/unit0/introduction",
+      "title": "Hugging Face Deep Reinforcement Learning Course",
+      "date": "2022-05-01",
+      "source_type": "official",
+      "confidence": "practitioner",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "hands-on-drl-training-workflow",
+        "unit-based-rl-learning-path"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "hands-on-drl-training-workflow",
+        "unit-based-rl-learning-path"
+      ]
+    },
+    {
+      "id": "david-silver-ucl-rl-course",
+      "url": "https://davidstarsilver.wordpress.com/teaching/",
+      "title": "David Silver: UCL Course on Reinforcement Learning (COMPM050, 2015)",
+      "date": "2015-01-01",
+      "source_type": "official",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "bellman-equation-lecture-treatment",
+        "model-free-prediction-and-control"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "bellman-equation-lecture-treatment",
+        "model-free-prediction-and-control"
+      ]
+    },
+    {
+      "id": "berkeley-cs285",
+      "url": "https://rail.eecs.berkeley.edu/deeprlcourse/",
+      "title": "Berkeley CS285: Deep Reinforcement Learning (Levine, Spring 2026)",
+      "date": "2026-01-19",
+      "source_type": "official",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "graduate-level-drl-syllabus",
+        "offline-rl-and-model-based-lectures"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "graduate-level-drl-syllabus",
+        "offline-rl-and-model-based-lectures"
+      ]
+    },
+    {
+      "id": "dqn-atari-2013",
+      "url": "https://arxiv.org/abs/1312.5602",
+      "title": "Playing Atari with Deep Reinforcement Learning (Mnih et al., DQN)",
+      "date": "2013-12-19",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "dqn-experience-replay",
+        "dqn-pixels-to-q-values"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "dqn-experience-replay",
+        "dqn-pixels-to-q-values"
+      ]
+    },
+    {
+      "id": "dqn-nature-2015",
+      "url": "https://www.nature.com/articles/nature14236",
+      "title": "Human-level control through deep reinforcement learning (Mnih et al., Nature)",
+      "date": "2015-02-25",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "dqn-target-network-stabilization",
+        "human-level-atari-benchmark"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "dqn-target-network-stabilization",
+        "human-level-atari-benchmark"
+      ]
+    },
+    {
+      "id": "rainbow-2017",
+      "url": "https://arxiv.org/abs/1710.02298",
+      "title": "Rainbow: Combining Improvements in Deep Reinforcement Learning (Hessel et al.)",
+      "date": "2017-10-06",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "rainbow-dqn-extension-ablations",
+        "distributional-and-prioritized-replay-gains"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "rainbow-dqn-extension-ablations",
+        "distributional-and-prioritized-replay-gains"
+      ]
+    },
+    {
+      "id": "policy-gradient-theorem-1999",
+      "url": "https://papers.nips.cc/paper_files/paper/1999/hash/464d828b85b0bed98e80ade0a5c43b0f-Abstract.html",
+      "title": "Policy Gradient Methods for Reinforcement Learning with Function Approximation (Sutton et al., NeurIPS 1999)",
+      "date": "1999-12-01",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "policy-gradient-theorem-statement",
+        "reinforce-baseline-variance-reduction"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "policy-gradient-theorem-statement",
+        "reinforce-baseline-variance-reduction"
+      ]
+    },
+    {
+      "id": "a3c-2016",
+      "url": "https://arxiv.org/abs/1602.01783",
+      "title": "Asynchronous Methods for Deep Reinforcement Learning (Mnih et al., A3C)",
+      "date": "2016-02-04",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "a3c-asynchronous-actor-critic",
+        "parallel-actors-replace-replay"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "a3c-asynchronous-actor-critic",
+        "parallel-actors-replace-replay"
+      ]
+    },
+    {
+      "id": "gae-2015",
+      "url": "https://arxiv.org/abs/1506.02438",
+      "title": "High-Dimensional Continuous Control Using Generalized Advantage Estimation (Schulman et al.)",
+      "date": "2015-06-08",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "gae-lambda-bias-variance-tradeoff",
+        "advantage-estimation-for-policy-gradients"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "gae-lambda-bias-variance-tradeoff",
+        "advantage-estimation-for-policy-gradients"
+      ]
+    },
+    {
+      "id": "trpo-2015",
+      "url": "https://arxiv.org/abs/1502.05477",
+      "title": "Trust Region Policy Optimization (Schulman et al.)",
+      "date": "2015-02-19",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "trpo-kl-constrained-updates",
+        "monotonic-improvement-guarantee"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "trpo-kl-constrained-updates",
+        "monotonic-improvement-guarantee"
+      ]
+    },
+    {
+      "id": "ppo-2017",
+      "url": "https://arxiv.org/abs/1707.06347",
+      "title": "Proximal Policy Optimization Algorithms (Schulman et al.)",
+      "date": "2017-07-20",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "ppo-clipping-mechanism",
+        "ppo-vs-trpo-simplicity"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "ppo-clipping-mechanism",
+        "ppo-vs-trpo-simplicity"
+      ]
+    },
+    {
+      "id": "ddpg-2015",
+      "url": "https://arxiv.org/abs/1509.02971",
+      "title": "Continuous control with deep reinforcement learning (Lillicrap et al., DDPG)",
+      "date": "2015-09-09",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "ddpg-deterministic-policy-gradient",
+        "continuous-action-off-policy-control"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "ddpg-deterministic-policy-gradient",
+        "continuous-action-off-policy-control"
+      ]
+    },
+    {
+      "id": "td3-2018",
+      "url": "https://arxiv.org/abs/1802.09477",
+      "title": "Addressing Function Approximation Error in Actor-Critic Methods (Fujimoto et al., TD3)",
+      "date": "2018-02-26",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "td3-twin-critics-clipped-double-q",
+        "delayed-policy-updates-target-smoothing"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "td3-twin-critics-clipped-double-q",
+        "delayed-policy-updates-target-smoothing"
+      ]
+    },
+    {
+      "id": "sac-2018",
+      "url": "https://arxiv.org/abs/1801.01290",
+      "title": "Soft Actor-Critic: Off-Policy Maximum Entropy Deep RL with a Stochastic Actor (Haarnoja et al.)",
+      "date": "2018-01-04",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "sac-maximum-entropy-objective",
+        "sac-sample-efficiency-continuous-control"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "sac-maximum-entropy-objective",
+        "sac-sample-efficiency-continuous-control"
+      ]
+    },
+    {
+      "id": "alphazero-2017",
+      "url": "https://arxiv.org/abs/1712.01815",
+      "title": "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm (Silver et al., AlphaZero)",
+      "date": "2017-12-05",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "alphazero-self-play-mcts",
+        "general-game-mastery-without-domain-knowledge"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "alphazero-self-play-mcts",
+        "general-game-mastery-without-domain-knowledge"
+      ]
+    },
+    {
+      "id": "muzero-2019",
+      "url": "https://arxiv.org/abs/1911.08265",
+      "title": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model (Schrittwieser et al., MuZero)",
+      "date": "2019-11-19",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "muzero-learned-dynamics-planning",
+        "model-based-search-without-rules"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "muzero-learned-dynamics-planning",
+        "model-based-search-without-rules"
+      ]
+    },
+    {
+      "id": "mbpo-2019",
+      "url": "https://arxiv.org/abs/1906.08253",
+      "title": "When to Trust Your Model: Model-Based Policy Optimization (Janner et al., MBPO)",
+      "date": "2019-06-19",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "mbpo-short-model-rollouts",
+        "dyna-style-model-usage-tradeoffs"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "mbpo-short-model-rollouts",
+        "dyna-style-model-usage-tradeoffs"
+      ]
+    },
+    {
+      "id": "cql-2020",
+      "url": "https://arxiv.org/abs/2006.04779",
+      "title": "Conservative Q-Learning for Offline Reinforcement Learning (Kumar et al., CQL)",
+      "date": "2020-06-08",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "cql-conservative-value-lower-bound",
+        "offline-rl-distribution-shift-mitigation"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "cql-conservative-value-lower-bound",
+        "offline-rl-distribution-shift-mitigation"
+      ]
+    },
+    {
+      "id": "rnd-2018",
+      "url": "https://arxiv.org/abs/1810.12894",
+      "title": "Exploration by Random Network Distillation (Burda et al., RND)",
+      "date": "2018-10-30",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "rnd-prediction-error-exploration-bonus",
+        "hard-exploration-montezuma-progress"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "rnd-prediction-error-exploration-bonus",
+        "hard-exploration-montezuma-progress"
+      ]
+    },
+    {
+      "id": "gail-2016",
+      "url": "https://arxiv.org/abs/1606.03476",
+      "title": "Generative Adversarial Imitation Learning (Ho and Ermon, GAIL)",
+      "date": "2016-06-10",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "gail-adversarial-imitation-objective",
+        "imitation-without-reward-recovery"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "gail-adversarial-imitation-objective",
+        "imitation-without-reward-recovery"
+      ]
+    },
+    {
+      "id": "instructgpt-2022",
+      "url": "https://arxiv.org/abs/2203.02155",
+      "title": "Training language models to follow instructions with human feedback (Ouyang et al., InstructGPT)",
+      "date": "2022-03-04",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "rlhf-three-stage-pipeline",
+        "small-aligned-model-beats-larger-base"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "rlhf-three-stage-pipeline",
+        "small-aligned-model-beats-larger-base"
+      ]
+    },
+    {
+      "id": "dpo-2023",
+      "url": "https://arxiv.org/abs/2305.18290",
+      "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model (Rafailov et al.)",
+      "date": "2023-05-29",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "dpo-closed-form-preference-objective",
+        "dpo-vs-rlhf-tradeoffs"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "dpo-closed-form-preference-objective",
+        "dpo-vs-rlhf-tradeoffs"
+      ]
+    },
+    {
+      "id": "kto-2024",
+      "url": "https://arxiv.org/abs/2402.01306",
+      "title": "KTO: Model Alignment as Prospect Theoretic Optimization (Ethayarajh et al.)",
+      "date": "2024-02-02",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "kto-binary-signal-alignment",
+        "prospect-theory-loss-design"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "kto-binary-signal-alignment",
+        "prospect-theory-loss-design"
+      ]
+    },
+    {
+      "id": "orpo-2024",
+      "url": "https://arxiv.org/abs/2403.07691",
+      "title": "ORPO: Monolithic Preference Optimization without Reference Model (Hong et al.)",
+      "date": "2024-03-12",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "orpo-reference-free-alignment",
+        "single-stage-sft-plus-preference"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "orpo-reference-free-alignment",
+        "single-stage-sft-plus-preference"
+      ]
+    },
+    {
+      "id": "grpo-deepseekmath-2024",
+      "url": "https://arxiv.org/abs/2402.03300",
+      "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models (introduces GRPO)",
+      "date": "2024-02-05",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "grpo-group-relative-baseline",
+        "critic-free-policy-optimization"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "grpo-group-relative-baseline",
+        "critic-free-policy-optimization"
+      ]
+    },
+    {
+      "id": "deepseek-r1-2025",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "date": "2025-01-22",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "pure-rl-reasoning-emergence",
+        "r1-zero-no-sft-cold-start"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "pure-rl-reasoning-emergence",
+        "r1-zero-no-sft-cold-start"
+      ]
+    },
+    {
+      "id": "constitutional-ai-2022",
+      "url": "https://arxiv.org/abs/2212.08073",
+      "title": "Constitutional AI: Harmlessness from AI Feedback (Bai et al., Anthropic)",
+      "date": "2022-12-15",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "constitutional-ai-self-critique-loop",
+        "rl-from-ai-feedback-preferences"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "constitutional-ai-self-critique-loop",
+        "rl-from-ai-feedback-preferences"
+      ]
+    },
+    {
+      "id": "rlaif-vs-rlhf-2023",
+      "url": "https://arxiv.org/abs/2309.00267",
+      "title": "RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback (Lee et al.)",
+      "date": "2023-09-01",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "rlaif-matches-rlhf-quality",
+        "ai-preference-labeling-scalability"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "rlaif-matches-rlhf-quality",
+        "ai-preference-labeling-scalability"
+      ]
+    },
+    {
+      "id": "tulu-3-rlvr-2024",
+      "url": "https://arxiv.org/abs/2411.15124",
+      "title": "Tulu 3: Pushing Frontiers in Open Language Model Post-Training (introduces RLVR)",
+      "date": "2024-11-22",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "rlvr-verifiable-rewards-definition",
+        "open-post-training-recipe"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "rlvr-verifiable-rewards-definition",
+        "open-post-training-recipe"
+      ]
+    },
+    {
+      "id": "spurious-rewards-rlvr-2025",
+      "url": "https://arxiv.org/abs/2506.10947",
+      "title": "Spurious Rewards: Rethinking Training Signals in RLVR (Shao et al.)",
+      "date": "2025-06-12",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "rlvr-spurious-reward-gains-some-models",
+        "rlvr-signal-validation-caveats"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "rlvr-spurious-reward-gains-some-models",
+        "rlvr-signal-validation-caveats"
+      ]
+    },
+    {
+      "id": "gymnasium-docs",
+      "url": "https://gymnasium.farama.org/",
+      "title": "Gymnasium Documentation (Farama Foundation)",
+      "date": "2022-10-01",
+      "source_type": "official",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "gymnasium-env-api-standard",
+        "gym-to-gymnasium-migration"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "gymnasium-env-api-standard",
+        "gym-to-gymnasium-migration"
+      ]
+    },
+    {
+      "id": "stable-baselines3-docs",
+      "url": "https://stable-baselines3.readthedocs.io/en/master/",
+      "title": "Stable-Baselines3 Documentation",
+      "date": "2021-01-01",
+      "source_type": "official",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "sb3-reliable-algorithm-implementations",
+        "sb3-supported-algorithm-matrix"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "sb3-reliable-algorithm-implementations",
+        "sb3-supported-algorithm-matrix"
+      ]
+    },
+    {
+      "id": "cleanrl-docs",
+      "url": "https://docs.cleanrl.dev/",
+      "title": "CleanRL Documentation",
+      "date": "2022-01-01",
+      "source_type": "official",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "single-file-rl-implementations",
+        "implementation-detail-transparency"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "single-file-rl-implementations",
+        "implementation-detail-transparency"
+      ]
+    },
+    {
+      "id": "rllib-docs",
+      "url": "https://docs.ray.io/en/latest/rllib/index.html",
+      "title": "RLlib Documentation (Ray)",
+      "date": "2018-07-01",
+      "source_type": "official",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "rllib-scalable-distributed-rl",
+        "production-rl-workloads"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "rllib-scalable-distributed-rl",
+        "production-rl-workloads"
+      ]
+    },
+    {
+      "id": "trl-docs",
+      "url": "https://huggingface.co/docs/trl/index",
+      "title": "TRL Documentation (Hugging Face Transformer Reinforcement Learning)",
+      "date": "2026-03-27",
+      "source_type": "official",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "trl-trainer-taxonomy",
+        "grpo-dpo-kto-trainer-availability"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "trl-trainer-taxonomy",
+        "grpo-dpo-kto-trainer-availability"
+      ]
+    },
+    {
+      "id": "verl-docs",
+      "url": "https://verl.readthedocs.io/en/latest/",
+      "title": "verl Documentation (HybridFlow RL training framework for LLMs)",
+      "date": "2024-09-01",
+      "source_type": "official",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "verl-hybrid-controller-programming-model",
+        "llm-rl-post-training-infra"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "verl-hybrid-controller-programming-model",
+        "llm-rl-post-training-infra"
+      ]
+    },
+    {
+      "id": "openrlhf-repo",
+      "url": "https://github.com/OpenRLHF/OpenRLHF",
+      "title": "OpenRLHF GitHub Repository",
+      "date": "2024-05-01",
+      "source_type": "vendor",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "openrlhf-ray-vllm-distributed-rlhf",
+        "ppo-reinforce-plus-plus-grpo-support"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "openrlhf-ray-vllm-distributed-rlhf",
+        "ppo-reinforce-plus-plus-grpo-support"
+      ]
+    },
+    {
+      "id": "deep-rl-that-matters-2017",
+      "url": "https://arxiv.org/abs/1709.06560",
+      "title": "Deep Reinforcement Learning that Matters (Henderson et al.)",
+      "date": "2017-09-19",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "drl-reproducibility-seed-variance",
+        "hyperparameter-sensitivity-reporting"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "drl-reproducibility-seed-variance",
+        "hyperparameter-sensitivity-reporting"
+      ]
+    },
+    {
+      "id": "statistical-precipice-2021",
+      "url": "https://arxiv.org/abs/2108.13264",
+      "title": "Deep Reinforcement Learning at the Edge of the Statistical Precipice (Agarwal et al., rliable)",
+      "date": "2021-08-30",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "interquartile-mean-evaluation",
+        "few-run-uncertainty-reporting"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "interquartile-mean-evaluation",
+        "few-run-uncertainty-reporting"
+      ]
+    },
+    {
+      "id": "deepmind-specification-gaming-2020",
+      "url": "https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/",
+      "title": "Specification gaming: the flip side of AI ingenuity (DeepMind blog)",
+      "date": "2020-04-21",
+      "source_type": "vendor",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "specification-gaming-examples",
+        "reward-misspecification-failure-modes"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "specification-gaming-examples",
+        "reward-misspecification-failure-modes"
+      ]
+    },
+    {
+      "id": "anthropic-reward-hacking-misalignment-2025",
+      "url": "https://www.anthropic.com/research/emergent-misalignment-reward-hacking",
+      "title": "Natural emergent misalignment from reward hacking in production RL (Anthropic)",
+      "date": "2025-11-21",
+      "source_type": "vendor",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "supports_claims": [
+        "reward-hacking-generalizes-to-misalignment",
+        "inoculation-prompting-mitigation"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "reward-hacking-generalizes-to-misalignment",
+        "inoculation-prompting-mitigation"
+      ]
+    },
+    {
+      "id": "agentic-rl-survey-2025",
+      "url": "https://arxiv.org/abs/2509.02547",
+      "title": "The Landscape of Agentic Reinforcement Learning for LLMs: A Survey",
+      "date": "2025-09-02",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "agentic-rl-formulation"
+      ],
+      "supports_claims": [
+        "test-time-compute-scaling",
+        "prm-vs-orm"
+      ]
+    },
+    {
+      "id": "search-r1-2025",
+      "url": "https://arxiv.org/abs/2503.09516",
+      "title": "Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning",
+      "date": "2025-03-12",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "rl-tool-use-training"
+      ],
+      "supports_claims": [
+        "agentic-rl-formulation"
+      ]
+    },
+    {
+      "id": "mua-rl-2025",
+      "url": "https://arxiv.org/abs/2508.18669",
+      "title": "MUA-RL: Multi-turn User-interacting Agent Reinforcement Learning for agentic tool use",
+      "date": "2025-08-26",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "multi-turn-agent-rl"
+      ],
+      "supports_claims": [
+        "agentic-rl-formulation",
+        "rl-tool-use-training"
+      ]
+    },
+    {
+      "id": "qwen-prm-lessons-2025",
+      "url": "https://arxiv.org/abs/2501.07301",
+      "title": "The Lessons of Developing Process Reward Models in Mathematical Reasoning",
+      "date": "2025-01-13",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "prm-vs-orm"
+      ],
+      "supports_claims": [
+        "test-time-compute-scaling"
+      ]
+    },
+    {
+      "id": "prm-survey-2025",
+      "url": "https://arxiv.org/abs/2510.08049",
+      "title": "A Survey of Process Reward Models: From Outcome Signals to Process Supervisions for Large Language Models",
+      "date": "2025-10-09",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "prm-vs-orm"
+      ],
+      "supports_claims": [
+        "agentic-rl-formulation"
+      ]
+    },
+    {
+      "id": "world-models-2018",
+      "url": "https://arxiv.org/abs/1803.10122",
+      "title": "World Models",
+      "date": "2018-03-27",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "dreamer-latent-imagination"
+      ],
+      "supports_claims": [
+        "pomdp-belief-states"
+      ]
+    },
+    {
+      "id": "dreamerv3-2023",
+      "url": "https://arxiv.org/abs/2301.04104",
+      "title": "Mastering Diverse Domains through World Models (DreamerV3; also published in Nature, 2025)",
+      "date": "2023-01-10",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "dreamer-latent-imagination"
+      ],
+      "supports_claims": [
+        "pomdp-belief-states",
+        "sim-to-real-gap"
+      ]
+    },
+    {
+      "id": "snell-test-time-compute-2024",
+      "url": "https://arxiv.org/abs/2408.03314",
+      "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+      "date": "2024-08-06",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "test-time-compute-scaling"
+      ],
+      "supports_claims": [
+        "prm-vs-orm"
+      ]
+    },
+    {
+      "id": "art-of-scaling-ttc-2025",
+      "url": "https://arxiv.org/abs/2512.02008",
+      "title": "The Art of Scaling Test-Time Compute for Large Language Models",
+      "date": "2025-12-01",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "test-time-compute-scaling"
+      ],
+      "supports_claims": [
+        "prm-vs-orm"
+      ]
+    },
+    {
+      "id": "drqn-2015",
+      "url": "https://arxiv.org/abs/1507.06527",
+      "title": "Deep Recurrent Q-Learning for Partially Observable MDPs",
+      "date": "2015-07-23",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "pomdp-belief-states"
+      ],
+      "supports_claims": []
+    },
+    {
+      "id": "rl2-2016",
+      "url": "https://arxiv.org/abs/1611.02779",
+      "title": "RL^2: Fast Reinforcement Learning via Slow Reinforcement Learning",
+      "date": "2016-11-09",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "meta-rl-adaptation"
+      ],
+      "supports_claims": [
+        "pomdp-belief-states"
+      ]
+    },
+    {
+      "id": "meta-rl-survey-2023",
+      "url": "https://arxiv.org/abs/2301.08028",
+      "title": "A Tutorial on Meta-Reinforcement Learning",
+      "date": "2023-01-19",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "meta-rl-adaptation"
+      ],
+      "supports_claims": [
+        "procgen-generalization"
+      ]
+    },
+    {
+      "id": "procgen-2019",
+      "url": "https://arxiv.org/abs/1912.01588",
+      "title": "Leveraging Procedural Generation to Benchmark Reinforcement Learning",
+      "date": "2019-12-03",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "procgen-generalization"
+      ],
+      "supports_claims": [
+        "meta-rl-adaptation"
+      ]
+    },
+    {
+      "id": "cpo-2017",
+      "url": "https://arxiv.org/abs/1705.10528",
+      "title": "Constrained Policy Optimization",
+      "date": "2017-05-30",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "cmdp-constrained-optimization"
+      ],
+      "supports_claims": []
+    },
+    {
+      "id": "omnisafe-2023",
+      "url": "https://arxiv.org/abs/2305.09304",
+      "title": "OmniSafe: An Infrastructure for Accelerating Safe Reinforcement Learning Research",
+      "date": "2023-05-16",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "safe-rl-tooling"
+      ],
+      "supports_claims": [
+        "cmdp-constrained-optimization"
+      ]
+    },
+    {
+      "id": "impala-2018",
+      "url": "https://arxiv.org/abs/1802.01561",
+      "title": "IMPALA: Scalable Distributed Deep-RL with Importance Weighted Actor-Learner Architectures",
+      "date": "2018-02-05",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "impala-vtrace-off-policy"
+      ],
+      "supports_claims": [
+        "distributed-rl-throughput"
+      ]
+    },
+    {
+      "id": "apex-2018",
+      "url": "https://arxiv.org/abs/1803.00933",
+      "title": "Distributed Prioritized Experience Replay",
+      "date": "2018-03-02",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "distributed-rl-throughput"
+      ],
+      "supports_claims": [
+        "impala-vtrace-off-policy"
+      ]
+    },
+    {
+      "id": "seed-rl-2019",
+      "url": "https://arxiv.org/abs/1910.06591",
+      "title": "SEED RL: Scalable and Efficient Deep-RL with Accelerated Central Inference",
+      "date": "2019-10-15",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "distributed-rl-throughput"
+      ],
+      "supports_claims": [
+        "impala-vtrace-off-policy"
+      ]
+    },
+    {
+      "id": "domain-randomization-2017",
+      "url": "https://arxiv.org/abs/1703.06907",
+      "title": "Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World",
+      "date": "2017-03-20",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "sim-to-real-gap"
+      ],
+      "supports_claims": []
+    },
+    {
+      "id": "simplevla-rl-2025",
+      "url": "https://arxiv.org/abs/2509.09674",
+      "title": "SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning",
+      "date": "2025-09-11",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "vla-rl-scaling"
+      ],
+      "supports_claims": [
+        "sim-to-real-gap",
+        "agentic-rl-formulation"
+      ]
+    },
+    {
+      "id": "reality-gap-survey-2025",
+      "url": "https://arxiv.org/abs/2510.20808",
+      "title": "The Reality Gap in Robotics: Challenges, Solutions, and Best Practices",
+      "date": "2025-10-23",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "sim-to-real-gap"
+      ],
+      "supports_claims": [
+        "vla-rl-scaling"
+      ]
+    },
+    {
+      "id": "c51-2017",
+      "url": "https://arxiv.org/abs/1707.06887",
+      "title": "A Distributional Perspective on Reinforcement Learning",
+      "date": "2017-07-21",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "distributional-return-learning"
+      ],
+      "supports_claims": []
+    },
+    {
+      "id": "qr-dqn-2017",
+      "url": "https://arxiv.org/abs/1710.10044",
+      "title": "Distributional Reinforcement Learning with Quantile Regression",
+      "date": "2017-10-27",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "distributional-return-learning"
+      ],
+      "supports_claims": []
+    },
+    {
+      "id": "genie-3-blog-2025",
+      "url": "https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/",
+      "title": "Genie 3: A new frontier for world models",
+      "date": "2025-08-05",
+      "source_type": "vendor",
+      "confidence": "practitioner",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "interactive-world-generation"
+      ],
+      "supports_claims": [
+        "dreamer-latent-imagination"
+      ]
+    },
+    {
+      "id": "safety-gym-2019",
+      "url": "https://cdn.openai.com/safexp-short.pdf",
+      "title": "Benchmarking Safe Exploration in Deep Reinforcement Learning (Safety Gym)",
+      "date": "2019-11-21",
+      "source_type": "vendor",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "cmdp-constrained-optimization"
+      ],
+      "supports_claims": [
+        "safe-rl-tooling"
+      ]
+    },
+    {
+      "id": "distributional-rl-book-2023",
+      "url": "https://www.distributional-rl.org/",
+      "title": "Distributional Reinforcement Learning (Bellemare, Dabney, Rowland; MIT Press)",
+      "date": "2023-05-30",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "distributional-return-learning"
+      ],
+      "supports_claims": []
+    },
+    {
+      "id": "kaelbling-pomdp-1998",
+      "url": "https://people.csail.mit.edu/lpk/papers/aij98-pomdp.pdf",
+      "title": "Planning and Acting in Partially Observable Stochastic Domains",
+      "date": "1998-05-01",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "retrieved": "2026-07-22",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-08-21",
+      "claims": [
+        "pomdp-belief-states"
+      ],
+      "supports_claims": [
+        "meta-rl-adaptation"
+      ]
+    }
+  ],
+  "last_research_pass": "2026-07-22"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "wandb-ppo-collapse",
+  "config": {
+    "algorithm": "PPO",
+    "library": "CleanRL",
+    "learning_rate": 0.0003,
+    "seed": 7
+  },
+  "history": [
+    {"_step": 0, "rollout/ep_rew_mean": 10, "policy/entropy": 1.0, "train/approx_kl": 0.010, "train/vf_loss": 0.5},
+    {"_step": 100, "rollout/ep_rew_mean": 11, "policy/entropy": 0.8, "train/approx_kl": 0.011, "train/vf_loss": 0.5},
+    {"_step": 200, "rollout/ep_rew_mean": 12, "policy/entropy": 0.5, "train/approx_kl": 0.009, "train/vf_loss": 0.5},
+    {"_step": 300, "rollout/ep_rew_mean": 13, "policy/entropy": 0.2, "train/approx_kl": 0.010, "train/vf_loss": 0.5},
+    {"_step": 400, "rollout/ep_rew_mean": 14, "policy/entropy": 0.04, "train/approx_kl": 0.011, "train/vf_loss": 0.5},
+    {"_step": 500, "rollout/ep_rew_mean": 15, "policy/entropy": 0.03, "train/approx_kl": 0.200, "train/vf_loss": 0.5},
+    {"_step": 600, "rollout/ep_rew_mean": 16, "policy/entropy": 0.03, "train/approx_kl": 0.010, "train/vf_loss": 0.5},
+    {"_step": 700, "rollout/ep_rew_mean": 17, "policy/entropy": 0.03, "train/approx_kl": 0.009, "train/vf_loss": 0.5},
+    {"_step": 800, "rollout/ep_rew_mean": 18, "policy/entropy": 0.03, "train/approx_kl": 0.010, "train/vf_loss": 0.5},
+    {"_step": 900, "rollout/ep_rew_mean": 19, "policy/entropy": 0.03, "train/approx_kl": 0.011, "train/vf_loss": 0.5},
+    {"_step": 1000, "rollout/ep_rew_mean": 20, "policy/entropy": 0.03, "train/approx_kl": 0.009, "train/vf_loss": 0.5},
+    {"_step": 1100, "rollout/ep_rew_mean": 21, "policy/entropy": 0.03, "train/approx_kl": 0.010, "train/vf_loss": 0.5}
+  ]
+}

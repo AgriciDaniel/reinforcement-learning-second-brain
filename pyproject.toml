@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reinforcement-learning-brain"
+version = "0.1.0"
+description = "Reinforcement Learning Brain Obsidian brain template and script layer."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "Custom license"}
+authors = [{name = "Daniel Agrici"}]
+dependencies = []
+
+[project.scripts]
+reinforcement-learning-brain = "reinforcement_learning_brain.cli:main"
+
+[tool.setuptools]
+packages = ["reinforcement_learning_brain"]

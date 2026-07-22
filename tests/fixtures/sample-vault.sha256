@@ -1,0 +1,182 @@
+8ba9c4e1032bd2b110ccf3c0b7d5311b2487238a4fb7bd7f34a4d27455eee64b  .obsidian/app.json
+57380a8b60bc8c7555e7c7e54b1ee034ee36de1e52562aa52ddfdfde566be410  .obsidian/appearance.json
+9c3124cc6ef340fe659dcaf6fd5651aa41fdadae72d2d877ffed595fd949ecde  .obsidian/community-plugins.json
+e5e1ef428610976b639c37d2468c4de7d3e78e618824693a620a045600f2f211  .obsidian/core-plugins.json
+bcdce25db41529039aaaca216d0821fbd84a0f941e53da894c55295e1996c495  .obsidian/graph.json
+60e641acc8dfc04bf8afacc5f07b12c1ee348e6d877e533ffd5f331c9e99965e  .obsidian/snippets/brain.css
+9e6c7feaec5bba8102bb66a0843c54efbc364fba8dd2e530b3fc3c47d98218a8  .raw/.manifest.json
+5c254f66069cc2e010fe70bf59e1fbce62ac683b5eaaad34ac615a8d9e103430  .raw/sources/.gitkeep
+0d5d9ebd6898556e7818b57bcd606b7990321f7f20545f76699452a10dc4e279  .raw/sources/sample-source.md
+2be8cab6536cfd1b5ed46a7e026a752af8b28b5d42f804b05f89e8657eb969f1  CODEX.md
+4c598db08b42906562d5f5c16340ea0710262b8ec05c92cf632ad61364238b45  README.md
+2455c3236003e2a67acd56c656f1e930ea55711c2f366af88506574e1be7f29d  _attachments/brain-relationship-map.svg
+f629f711b52b1c8d241aa126c777bb0879678e6930cddce0c82b110838a0cfc9  _templates/decision.md
+d74c3478161d9cea1e540455d65e0e5c5de85b962052fb1cad9aa784822801a8  _templates/source-note.md
+cb66d3c919414292b321439f4cb8ec883ca18199df03cf8e4e6e1aa896a17fd7  _templates/standard-note.md
+31124d0dd54a81cf6562022685c8a3ce26e1255287f9676e8ac1ffdc1fac24c4  shipping-rules.md
+5ef705eb6659ef8d2a04e924ea2f65cf1f20527c5542f8af6c4481d49356f69d  weekly-report.html
+1d58707826d3e1f66487bba2e772b610748b990d172002ad8138b89a09333ae8  wiki/accounts/_index.md
+348830a397e4208f5ac6fb97a1aadbbca24edaa45371032fbec9e3caa2bc3470  wiki/canvases/Onboarding Canvas.canvas
+22fa19aed3ebc8d4c138fc9c70fc6a4c8d639b8be93337438ce35aa355b3bd15  wiki/canvases/_index.md
+753a0434c4ef13adf892a9c66c3729bbf68205c202d25c4964191ba60b0a81d8  wiki/canvases/main.canvas
+81d3689e93331692d2ffbfbbb26ac063a2f34e1ba33c9ead3d8d7b75ea745adc  wiki/concepts/A Distributional Perspective on Reinforcement Learning.md
+d8e35c6a7442f30f5b98a201c0fa37f8001f8c19aa40f30a7b6fa77eec6d8fff  wiki/concepts/A Survey of Process Reward Models From Outcome Signals to Process Supervisions.md
+d3003399f391870ac101ad86f8d4baaafee6424130e52c5f04174ec2f931c553  wiki/concepts/A Tutorial on Meta-Reinforcement Learning.md
+8eb9555ac0f210bd310fa6e875c65385b391b47db23ee9344bb9cee196213e53  wiki/concepts/Actor-critic methods (A2C A3C, GAE).md
+0591ec3c09561a4dc209e0e12cb69f68f4d35a936d2b1fa1e015a7bf57321455  wiki/concepts/Addressing Function Approximation Error in Actor-Critic Methods.md
+90f090c2738cc7265230e0c71d78ea1a56d78540110164a72d8cce9ad6fd8dbd  wiki/concepts/Agentic multi-turn RL for LLM agents.md
+fd00fe858600fb52a75869cf27b9d7ad1ec41246a2e5e7fd0f1ef7107f330847  wiki/concepts/Asynchronous Methods for Deep Reinforcement Learning (Mnih et al., A3C).md
+bda26822790f3e22ce053e103c2c9ee09a60a5f8460d298557f9edb712ebd536  wiki/concepts/Bandits and exploration-exploitation.md
+4cf240054b894be6617b4b19cfbe705ed3518065fc05840630b71b1adcb6888c  wiki/concepts/Benchmarking Safe Exploration in Deep Reinforcement Learning (Safety Gym).md
+82aea25defc05def511f13863171e6e58568facb2d4cc0b88bfdda5546bb0c1e  wiki/concepts/Berkeley CS285 Deep Reinforcement Learning (Levine, Spring 2026).md
+046d59d7caa1ee40cf80cdc1604cc6b3724a9a2796a138e3784655309bf1d437  wiki/concepts/Best Practices Kernel.md
+c9aa44c8ae798ef6e1281237df57c555eacdbc63275c001ac2887581e0e7491c  wiki/concepts/CleanRL Documentation.md
+8b1ab5e29b5a98d37b126a5837324d0e68fb60fe192bc2f389a12dc85ba67d77  wiki/concepts/Conservative Q-Learning for Offline Reinforcement Learning (Kumar et al., CQL).md
+85fc3c7b3bdee504898fa15efd006f432bafee525288872f8507eb54f6ae9d2b  wiki/concepts/Constitutional AI Harmlessness from AI Feedback (Bai et al., Anthropic).md
+63915786af0dde9c73e049f950dc5f6d48f46e4f649cae29928d809953405826  wiki/concepts/Constrained Policy Optimization.md
+f29675cb4f156d070f9e7c3dbdaeff26beffd77c4b04202214371de15d6dd3e4  wiki/concepts/Continuous control (DDPG, TD3, SAC).md
+14d589d720616c7a058b863d46d274f9002588bbcde51eb6d8a04d4b86ceb52d  wiki/concepts/Continuous control with deep reinforcement learning (Lillicrap et al., DDPG).md
+ea369f08345bea877cd5f320b6cda682bbdaf2d82f873649d35c54dc183c3496  wiki/concepts/David Silver UCL Course on Reinforcement Learning (COMPM050, 2015).md
+6596e5680047032921bf029707a7d176973693531a7f45ec47efcae9df25f334  wiki/concepts/Debugging RL training runs in practice.md
+1aee5c94bbdf9e3982710f041066dba90bfffe02068764bb3ee2e6f64f747711  wiki/concepts/Deep Q-Networks and value-based deep RL (DQN, Rainbow).md
+65dfe45a6b861f0d413792c3fa97f414d26b09e3da4663a660009cd6b0b2eebe  wiki/concepts/Deep Recurrent Q-Learning for Partially Observable MDPs.md
+ebd1910802da08e5d96e9ba855fde435a077f1fc5ea4ff56b9da5c311c94ca5b  wiki/concepts/Deep Reinforcement Learning at the Edge of the Statistical Precipice.md
+7be12010372ce57862ea2e24c773e5b4d5d4a1514b6d5a75d64f5354028fe70b  wiki/concepts/Deep Reinforcement Learning that Matters (Henderson et al.).md
+86770eb528f619e4d117742d67f9fd58ab22de2ef52c07e286da6b7dd494dfeb  wiki/concepts/DeepSeek-R1 Incentivizing Reasoning Capability in LLMs via Reinforcement.md
+93c140c939e7858bc5e8ead1cb47e834c475abbe0035b5e6736b3e6ce86d9361  wiki/concepts/DeepSeekMath Pushing the Limits of Mathematical Reasoning in Open Language.md
+e9f84cd9b7420c322f351bfbecd56852d136d6123ced766e836e5d7fe2bf7020  wiki/concepts/Direct Preference Optimization Your Language Model is Secretly a Reward Model.md
+5b90203707817dab8f4017cba9aafa53f5b43db8af5f1bb6a5fd013d8125938c  wiki/concepts/Direct preference optimization family (DPO, IPO, KTO, ORPO).md
+b6c8c6d6cc61ca30fe377e7708e0462ae662eda8a46261dc1c783c2685f09420  wiki/concepts/Distributed Prioritized Experience Replay.md
+0afea9f50ca7e2360af49891e722b71151f046b811928e501394fc70a442fc48  wiki/concepts/Distributed RL systems and self-play (IMPALA, Ape-X, league training).md
+2d6012cce6682683ad2f300f72c1ff0818dfe579aff7c8cf2277a55fdbfb40e8  wiki/concepts/Distributional RL.md
+d8bd6cbd87fde7eb775d384c63297463d48abd19279ebeaafc3cd884535021b8  wiki/concepts/Distributional Reinforcement Learning (Bellemare, Dabney, Rowland; MIT Press).md
+65770243b361d4852b5287142973fafc56c9a534ab50e8d2538db2e9904a0782  wiki/concepts/Distributional Reinforcement Learning with Quantile Regression.md
+3aef642f9e7e71f01ba7c86b7dfd0405ac7bb173851ad183dccb6ec5350b70f0  wiki/concepts/Domain Randomization for Transferring Deep Neural Networks from Simulation to.md
+9a2212df819a410b3afad9ad7232899ed481f88585b4c9279680e37d4c4c1e73  wiki/concepts/Dynamic programming, Monte Carlo, and temporal-difference learning.md
+fee21eaf23ff66e928d8a93480a5ded97ed5a09e2dfe1c36a1f97603d45e66c9  wiki/concepts/Evaluation, benchmarks, and reproducibility in deep RL.md
+83c22580f09758d3fe80acbbcb53b65e67822dab8475006dd6988a4d2e263530  wiki/concepts/Exploration by Random Network Distillation (Burda et al., RND).md
+ebb079b86a24bf8371786ef213c4fdc08306a73cc22aa57507cc5160c64ad37c  wiki/concepts/Exploration strategies and intrinsic motivation.md
+157ae1e16e7ea8062a4c8d0a27a29b5a4bd84fc72b989095c6157c70ba03e81d  wiki/concepts/Function approximation and the deadly triad.md
+1dc1d65c8a8b96b2a5b7d544658711edd208f82124a2970fc6239eec48d52057  wiki/concepts/GRPO and RL with verifiable rewards for reasoning models.md
+13827b947c1afbf181e6e68e363f371242fcce6da92ac1a1d176f1cb1bf1db80  wiki/concepts/Generative Adversarial Imitation Learning (Ho and Ermon, GAIL).md
+90f58bed2b8173855189e5e711a03b22da5baf3a44ea6b14db12cd9c76465799  wiki/concepts/Genie 3 A new frontier for world models.md
+ebb3593d4e7e68511eebc301b894cc00b1554b1dac95e24e0cedd0dfdef25c2e  wiki/concepts/Gymnasium Documentation (Farama Foundation).md
+88ef9f6da9b32d9881dbe7df52e86246a069bceb6b604409c5fde8523b7cf039  wiki/concepts/Hierarchical RL and options.md
+1d4f9fc286592b13a4f852ce5cb4e2c1ed1c26c9d2988e8b32cb614cd11d4964  wiki/concepts/High-Dimensional Continuous Control Using Generalized Advantage Estimation.md
+153ca94d65cc63fd4f89d1f067de58fd321a6db7c2656c975818181cb29a7237  wiki/concepts/Hugging Face Deep Reinforcement Learning Course.md
+cd3e278812d8e790bf88c5df4ed5051b41c413477322b9ddcbbadbe0075a00c1  wiki/concepts/Human-level control through deep reinforcement learning (Mnih et al., Nature).md
+869cd474ac194a4dc1b1b8fe7b6aa585eecac237108d9afa35dd788b86906694  wiki/concepts/IMPALA Scalable Distributed Deep-RL with Importance Weighted Actor-Learner.md
+bb38dae4270a18830cba020fb22d52e13a39722172a271e308576f774a325b3a  wiki/concepts/Imitation learning and inverse RL.md
+fe8c26e65976892dca4dea73466c4080c6d7f9abe0d3532b13186892972955fc  wiki/concepts/KTO Model Alignment as Prospect Theoretic Optimization (Ethayarajh et al.).md
+d92d06b433080063a96e162177ad705e7d7ed2d8505e2b65dbc8d9a8acf7b985  wiki/concepts/Leveraging Procedural Generation to Benchmark Reinforcement Learning.md
+cbfdc1ac2a33382e76d9b9478f478cea3dd721fbf070c11b682ed227f7315dd2  wiki/concepts/MUA-RL Multi-turn User-interacting Agent Reinforcement Learning for agentic.md
+e11fb219d84d78a1118fbdeed320c5be539a6f76bb285b2a59848d7a9852d674  wiki/concepts/Markov decision processes and the RL problem formulation.md
+60dbf4c7d583b7c5073ad158d15b36541a55ceed6468e6255a26f603b159548e  wiki/concepts/Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model.md
+9b80970fd4ecc7636b8772ffdc0642bb0a57429cd97eb22e42848fb09b549856  wiki/concepts/Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning.md
+2038423e29d9eff1d1dde501e3aff25b28ae20144d11c528f1d2b580822e77cb  wiki/concepts/Mastering Diverse Domains through World Models.md
+a35d6a844abe2ccf052603b5b5b5c06b581cf02254c68857b42a8b3f7d8c9cab  wiki/concepts/Meta-RL, generalization, and curricula.md
+865b179d606fbf48aadd2a343842e141d69dad2118431c01fda3f8dba0a2351a  wiki/concepts/Model-based RL and planning (Dyna, MBPO, AlphaZero, MuZero).md
+b23deec0e03b1cf8b433134cba7edc0af69e84b4c5b62d563567c399d9b0422f  wiki/concepts/Multi-agent RL.md
+0825bddbbbad9c8a31d8efaa11348e59bc3c95c5341ec0d11a2c7b1097e8ae99  wiki/concepts/Natural emergent misalignment from reward hacking in production RL (Anthropic).md
+cceb45d1f390a2ec00bd57cbcd5a58332429de69d947e23932cbb4116a4e4cf1  wiki/concepts/ORPO Monolithic Preference Optimization without Reference Model (Hong et al.).md
+aa84b44f57d9c19bf531cac8dab06294e83f7db240835afcc2147b4509a90587  wiki/concepts/Offline batch RL and conservatism.md
+226392317e4ffbbbcd7d53fe13b5e83953d7922e25ac696e28fff6fb76cd7f88  wiki/concepts/OmniSafe An Infrastructure for Accelerating Safe Reinforcement Learning Research.md
+e317470214920b589b0e857d819cfc122f1aae5b2d10f1bfbd958c60089bddee  wiki/concepts/OpenAI Spinning Up in Deep RL.md
+4b5f4c2ca77b616268ff75ea2b7462b3deb935e4c3f82ab7cc9272f8e8f3e4ab  wiki/concepts/OpenRLHF GitHub Repository.md
+43b62a7043a57afa5060c5b7b7cac4dffacfba7249e17043cea5bc339190097d  wiki/concepts/POMDPs and partial observability.md
+818a5601cee05bf46b8c9bad66910c14f43a26b824c8acd8031fea5335e4cd52  wiki/concepts/Planning and Acting in Partially Observable Stochastic Domains.md
+08a07e77b15003f20a03e0d31279e8d43f5e0334349172f46bfeb5b626f8ce16  wiki/concepts/Playing Atari with Deep Reinforcement Learning (Mnih et al., DQN).md
+6974febf13817ae1ed934289832678090403aba43c937bedb3eddaf89668bd93  wiki/concepts/Policy Gradient Methods for Reinforcement Learning with Function Approximation.md
+c478b336af4c4ea7d6cfea29bd0f041ea3ba26d4be0672168fd62f8fa59462d8  wiki/concepts/Policy gradient methods and REINFORCE.md
+ace79891575f396df91f6782a67040478c58f0c21f6237d08b40d1b98829fa9c  wiki/concepts/Process reward models and step-level supervision.md
+d6aae8dcb16280782e3a1faad23352cc7cb751490a1d27f58d526c73b406fab3  wiki/concepts/Proximal Policy Optimization Algorithms (Schulman et al.).md
+d498ed3bdc2505fa6d142eebaeaefa24d228c54cdf306255f6da77e790c07796  wiki/concepts/Q-learning, SARSA, and tabular methods.md
+5d690b81236c8d48bfe016b6ce4bfa243e9d6b424e4c02f2e62b5397c85dd630  wiki/concepts/RL tooling landscape (Gymnasium, SB3, CleanRL, RLlib, TRL, veRL, OpenRLHF).md
+219d8445f9348b16b7a6c574e2b818eebc6258eae1dbbc797d76d48e30343cf6  wiki/concepts/RLAIF and Constitutional AI.md
+248743a1ac23f7bc6052034b9f640342dfdffb4e0df7d4f3ffea4ab67a9a3d35  wiki/concepts/RLAIF vs. RLHF Scaling Reinforcement Learning from Human Feedback with AI.md
+64ebcc0c547a0ce35d823ad4c325a721ea835fb25f0f4836b6533ccb3a2ad0c7  wiki/concepts/RLHF reward models and PPO post-training (InstructGPT lineage).md
+754467220d5da4050aa65f62751010eee2ab98f6db0b76027e0820d37afabfd4  wiki/concepts/RL^2 Fast Reinforcement Learning via Slow Reinforcement Learning.md
+7aff2d0a672255f57f4b5d9fc29ac4cb86047cd510b5caf118983f19caa950ec  wiki/concepts/RLlib Documentation (Ray).md
+cfbd7bfed86b1412adfbb3e34961c3e1764e74d08f04a8c8b7fee21dd67ae40a  wiki/concepts/Rainbow Combining Improvements in Deep Reinforcement Learning (Hessel et al.).md
+db2a8815bebf0884fb1f10ddef9d7b2e5ab7f22203b4242296549c035eb81b7f  wiki/concepts/Reinforcement Learning An Introduction, 2nd Edition.md
+1163177fde8267dc740281f1d33b2b5329f8625000db9e19bfb68d2c16fd1817  wiki/concepts/Reward design, reward hacking, and specification gaming.md
+7bbf8d7b0dbbd79b38f119401168f5e1410b0a697603c0c5b370c49879f84e66  wiki/concepts/SEED RL Scalable and Efficient Deep-RL with Accelerated Central Inference.md
+8f06416f3330d830f9395fa60bf91aba647bbe507ebf7441844600788f0e0f83  wiki/concepts/Safe and constrained RL.md
+c60269e0cf5d1ea7a8410907e5c89489a053880024374d7323c2af01468d12f9  wiki/concepts/Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling.md
+1be9da1573d10e1f908bbd4e0b8e831c76e60e6fcafadc4fd49d4dadb59f2a59  wiki/concepts/Search-R1 Training LLMs to Reason and Leverage Search Engines with.md
+fd1beef053862bb5acc1fa949a36b9715122a7f1cc44d1e7bf822d5c2865b7b1  wiki/concepts/Sim-to-real and robotics RL.md
+a453aaa507925e1ac2c2e86ef90311bb1f2d4fc6e90517f087f04c62d0d71b5b  wiki/concepts/SimpleVLA-RL Scaling VLA Training via Reinforcement Learning.md
+66d5b0b07894094282076f472f488512fda74792247bf04655d88924d11ea023  wiki/concepts/Soft Actor-Critic Off-Policy Maximum Entropy Deep RL with a Stochastic Actor.md
+cc5389ced55b0d82f3f3483a444da44c10f4f092b55171e653ed60a3f799987d  wiki/concepts/Specification gaming the flip side of AI ingenuity (DeepMind blog).md
+9b867829855389dec6a2fa96ac2c22f2ccbfe6d6f95b592abfdd5af51f603f38  wiki/concepts/Spurious Rewards Rethinking Training Signals in RLVR (Shao et al.).md
+302b3c381ae5658387da66489d6ae27617e5cec6c00b75288b1d8caaa9b98fef  wiki/concepts/Stable-Baselines3 Documentation.md
+cf368515286238192ae8774b71498f82c88bc616ca8e245d427a535e32a2ab56  wiki/concepts/TRL Documentation (Hugging Face Transformer Reinforcement Learning).md
+bb5866f7c965b33bf235cc0264bf10873a7700dd494dd19b0170c77261259566  wiki/concepts/Test-time compute and search for reasoning models.md
+b5798642270b199ded0922e57b1e0f109f4f04d115bfcd20cebc9ba1200c2222  wiki/concepts/The Art of Scaling Test-Time Compute for Large Language Models.md
+819eef1dc575a28f41257faa245328602d84b5b37460ba2f61fdc4fafbebd9ec  wiki/concepts/The Landscape of Agentic Reinforcement Learning for LLMs A Survey.md
+5a3027e0d0c984fb645a6e170afb132bd85f8d5a3f538cf77def8a1c1932abdc  wiki/concepts/The Lessons of Developing Process Reward Models in Mathematical Reasoning.md
+614bb7d178746f3064154fbd2d857e0efbf2b9b49821f7fd6d31768319902d07  wiki/concepts/The Reality Gap in Robotics Challenges, Solutions, and Best Practices.md
+9e6f75e48a57e901cee91a7b3a72523c4e045bbb92b64dd74b28bccd6300c54a  wiki/concepts/Training language models to follow instructions with human feedback.md
+3ed151ed78d0ff4d2296ecaef33cb2989486fb3f7e672f9d37d69295ef5798a2  wiki/concepts/Trust Region Policy Optimization (Schulman et al.).md
+0621929e96b8d6dd6cd233080eaba21604aed2116f57aada9114628686c92288  wiki/concepts/Trust-region and proximal methods (TRPO, PPO).md
+c9b4d6dad3b4698935661962bd8ad2e9d5a1187c6fd1f31dbe84a63506c7eab5  wiki/concepts/Tulu 3 Pushing Frontiers in Open Language Model Post-Training (introduces RLVR).md
+4a600dd42a8a36219825681006a6c9f93cfab067499e1e2d62c015313bc0f4f2  wiki/concepts/When to Trust Your Model Model-Based Policy Optimization (Janner et al., MBPO).md
+8913b99d1a06d4fcaf2ed41d385230033cd3c35e1e5f0c08bd4eecd9ae7868d4  wiki/concepts/World Models.md
+5ee1ef2cb7ee017565855ad86b047c5608c99e46bce017aed0f580f70dd9a826  wiki/concepts/World models and latent imagination (Dreamer, Genie).md
+623ed797bc78e57ceb02dc1374668eeb31ec57fa93bfb0a369ff8ebe52a0bd51  wiki/concepts/_index.md
+f07bbcf105a26fd5ebc58d8669f992b30b6116db63640b1250442e446012b7dc  wiki/concepts/verl Documentation (HybridFlow RL training framework for LLMs).md
+da5dee48423739aad6993cd1a554113d154d24972f4b762af9463ccebc3e9f20  wiki/decisions/Approval Queue.md
+4be8a673d686376027becb7ed9df34550204e8572b31d4fcf8475987a3e91036  wiki/decisions/_index.md
+1d3488db5fae49bde06bc927e07fdcaf6bcffedf0176414786ecd58ba3d875cd  wiki/deliverables/Action Roadmap.md
+dd67c6ce4ae90e53f23c89d180cf8397c0f3482afd0d94a58c75e07e2dfcc737  wiki/deliverables/Health Scorecard.md
+a186c0d8dd517e0b1dd35776c18725b1c16bc15efd608ff1b022b4d654763929  wiki/deliverables/_index.md
+a9ef912d8b85e7918082adbf256b3f4ba54e1921a76eb232815d094ac939334e  wiki/entities/Fixture malformed progress.md
+dc24f688aca20f77833079ed746dceff15788709af1222e0a1fb4d71f50516f2  wiki/entities/Fixture malformed run.md
+1aca05cfc0546ac4083d50fa0a95c77444796fdccbd9dd7117be0ee6f716675d  wiki/entities/Fixture sample progress.md
+874b2fea9a1f3589d7a68a21b4e0e499f8bba9fa991bfbf147c657c20c18e59c  wiki/entities/Fixture sample run wandb.md
+7375d6b4e402c79338c0daf641a46202b436b844219e96b495c3a59089d71130  wiki/entities/Report Renderer render training run report.md
+0131d4f4d55985c1e036f980a1cc82340d002c0e34a1ee8fd1c0139704fb4ecb  wiki/entities/Synthesis Module training-run-findings-json.md
+7e97ec7ee00be064bf98a2c4d57975539757b982c590ca4db192859a83571acb  wiki/entities/Test test adapters.md
+54c7a6ed7e02fdee2417370f8d1113da783992d98150f963179e911b11b5d7f0  wiki/entities/_index.md
+915dba0b3a04274b86c1a2e4a1435c41334a9d7c78d8d6873e61918ffae8923f  wiki/experiments/CleanRL PPO reproduction sanity run as a determinism probe.md
+55e402e05406257eb9f02a8f2068425aea66b17451d4e5165f9a8155639f3237  wiki/experiments/Source To Claim Spot Check Probe.md
+68f3467c513073e1cf644152a894117d22f226f46593bf459c0db32ac5ee8122  wiki/experiments/Source-to-claim spot-check probe on benchmark numbers.md
+4f53a27d7e379c084ed5ae525755a12c6b4a3e724ca1a23da9d49c7d211c611d  wiki/experiments/_index.md
+324353c157ba56e502f9de1c29c3d664c447d7cbd7df11dd9d077ac87f7fb748  wiki/flows/Claim Verification Flow.md
+eb21d8fff50b6be91e22107543a24e37c9053eb1fbed350669ff64b52ac50e10  wiki/flows/Context Compaction Routine.md
+1eae24aaaf3f4ee1a5e257a7d961af4088f83b4955fc9153dc5f942a1d24bede  wiki/flows/Explore Plan Code Commit.md
+ba979adbc1e9cb750053e9fa168d9191d3f0c9fa7bfd9858d205f584dbceb7d5  wiki/flows/Multi-Agent Fan-Out Research Flow.md
+5c4798447a8de8e80b81e063d5bc9569cbc23206dd12c5f25e6adfd1844b9ea7  wiki/flows/Reporting Workflow.md
+194f795ded961ad2d3a82691627f4a428629ce2990fb60b6eeddb01f86deec77  wiki/flows/Research Refresh Workflow.md
+0702a3243e4a5a76d500d2222e7025b8659e8c7ec3a92487b1e6cf4d44937b17  wiki/flows/Source Intake Workflow.md
+9b2ec3260cad8378db2120580814d954dc1b1d8e7c3fb67af723366d32e6dc60  wiki/flows/Synthesis Workflow.md
+17a906805523fa5bbf16d61726fb40e2a0a7864ef161d14fd8e43b0e5728dfde  wiki/flows/_index.md
+46f84fc51af53c52946c713333494298e09d244e5f4ca9f4b6eaacfb33e80f62  wiki/gaps/Evidence coverage not yet verified.md
+bb0af152e17c4299c43237892c0e9a11910c51a0bcf1db2fffff7883ad428065  wiki/gaps/Post-training (2024-2026) claims need dated primary sources.md
+c0629876e731d718c799805c8737511f9a10be38ccc24c4afc1abba6dd1ec309  wiki/gaps/_index.md
+f52014332fa106dd8a187419384015c00e7afa5b9cd4b8b5d4be852a1a1ff1b3  wiki/hot.md
+87ecb25f40a779cc45c1f2c413b83add457bf0180c0c1da65afeb13db3a39efc  wiki/index.md
+7431d4961087918d13ecaf8345fb34c6b176cd28c2fdd72723a890bfcbcfad12  wiki/log.md
+be298c402c8fda071b6388d50fcdf9f2ee39d8e3f4111d5a7350f68d95fd0b76  wiki/meta/Answer Engine Citability Policy.md
+2727db4c6d4626d6aa909f21338a5e86faa87965d3c3c556da06cce3a9d92ced  wiki/meta/CONVENTIONS.md
+a57c5878d9c2022be00965a3d1207a62e3dfd3af7d0433332191de2847885e1c  wiki/meta/Corpus Scope Policy.md
+544e22e23cbad79e4b26e4e7e0cda21cd41c897f03114e3409e2a5e70b857963  wiki/meta/Memory Governance Policy.md
+671d4866c9e9f95ff2f66f68b0b62e28f91163bdd38e257651e3ca93a8771bdc  wiki/meta/Provenance Trace Policy.md
+fbf2953d61983373f0a52e17d93d37e490a6af42c9575ee22bf011e16caf3c7e  wiki/meta/Start Here.md
+7cf43ee6ff5e17ec2dd8aee2aea98f5840d291c46274abab0ff3720e5e2778bf  wiki/meta/Tag Taxonomy.md
+488ab4da9af9824b370c68bbb15b02650533d4b5a57c153c1ac3d9431ca86592  wiki/meta/Uncertainty Eval Policy.md
+081d9182c64245e2c12db3f424f9690ffd56d67381db58fd966cffd15e71c370  wiki/meta/dashboard.md
+823813acff5d62b39e88d0481983a32c09c5b2f9fb9cb563ba83eee6ed21b6a8  wiki/overview.md
+77b3abf0765f4f4da5cb2eb9a8939324eb594c7db4e21fb23fee5812566aa636  wiki/platforms/Importer import training run.md
+d5fc83bcc90984686492abf5f0b43617dbe3719e99e229bb38298fbe122077cd  wiki/platforms/Input Schema training run.schema.md
+a18be586c3f1da355a14940f822df76e8e567fb95933bfbe26ef4aae6354246f  wiki/platforms/_index.md
+1c6acd185943ea8cbd9caa484193a7b34b042043a5779d2f8a92ff33b2c81681  wiki/questions/What Current Official Source Resolves The Highest Risk Claim.md
+d7795d128ca401771df43818c3d4196215ca95a4fd2b93f53b77b6bb4b141a92  wiki/questions/What are the reproducibility pitfalls that most often invalidate deep RL compari.md
+2df8f648423764b14ccad9ec11115150ab687cc161054fe17ecb6e454905be5a  wiki/questions/When does DPO-family training beat PPO-based RLHF, and on what evidence.md
+ba8d897b4eb25b7e6fe4ea48df6bde129f70404fe2f8a57e20e4d3d44457a596  wiki/questions/Which current official source resolves the highest-risk state-of-the-art claim.md
+266fe7ec225a550fe451075aef09a374e3ea3e1ac5bc36fe2a389c02fa89a85c  wiki/questions/_index.md
+777b57bb56f47f1eb07b45e9e38dcfe4c0fad223eb2c75d19c6c3db37e68561d  wiki/reports/Weekly Report.md
+4bf5fb4765f3df7b579f24511dcc3ace75fa93f2ed20e5c983a82c23e5b64bd7  wiki/reports/_index.md
+ac5bb1ad284461419c59bd93d426d4ccf5b914074006ddde56b05e5b7014edda  wiki/sources/Source Manifest Guide.md
+8b9928967998e535e285ccc2889c6545093b0eb0f2c612de0ddff5cf25559f96  wiki/sources/_index.md
+ffa85ad00848fcfd8cb53908a4bd4e6a767ff85dcd053ac13753661d076cace5  wiki/sources/sample-source.md

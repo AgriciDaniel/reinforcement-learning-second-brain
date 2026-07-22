@@ -1,0 +1,34 @@
+{
+  "name": "agricidaniel-reinforcement-learning-brain",
+  "owner": {
+    "name": "Daniel Agrici"
+  },
+  "metadata": {
+    "description": "Reinforcement Learning Brain template and skill layer",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "reinforcement-learning-brain",
+      "source": "./",
+      "description": "Obsidian brain for reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Daniel Agrici"
+      },
+      "repository": "https://github.com/AgriciDaniel/reinforcement-learning-second-brain",
+      "license": "Custom license",
+      "category": "reinforcement-learning",
+      "tags": [
+        "obsidian",
+        "brain",
+        "reinforcement-learning"
+      ],
+      "keywords": [
+        "reinforcement-learning-brain",
+        "reinforcement-learning",
+        "obsidian"
+      ]
+    }
+  ]
+}

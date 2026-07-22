@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Normalized reinforcement learning training run",
+  "type": "object",
+  "required": [
+    "run_id",
+    "algorithm",
+    "library",
+    "created",
+    "hyperparameters",
+    "metrics"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string"
+    },
+    "algorithm": {
+      "type": "string"
+    },
+    "library": {
+      "type": "string"
+    },
+    "created": {
+      "type": "string",
+      "format": "date"
+    },
+    "hyperparameters": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "metrics": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "step",
+          "name",
+          "value"
+        ],
+        "properties": {
+          "step": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "value": {
+            "type": "number"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

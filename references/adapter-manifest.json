@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "status": "adapted",
+  "domain": "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices",
+  "generic_only": false,
+  "raw_input_types": [
+    "Papers (arXiv PDFs), official library docs, course notes, experiment logs, training configs, and TensorBoard/W&B exports supplied by the operator"
+  ],
+  "rules": {
+    "domain_adapted_requires": [
+      "one real domain importer or ingestion path",
+      "one domain-specific synthesis module",
+      "one report renderer",
+      "one fixture per supported input type",
+      "tests for importer, synthesis, rendering, malformed input, and missing credentials"
+    ]
+  },
+  "input_schemas": [
+    {
+      "path": "schemas/training-run.schema.json",
+      "format": "json-schema-draft-2020-12"
+    }
+  ],
+  "importers": [
+    {
+      "path": "scripts/import_training_run.py",
+      "input_types": [
+        "progress-csv",
+        "wandb-export-json"
+      ],
+      "offline": true
+    }
+  ],
+  "synthesis_modules": [
+    {
+      "path": "scripts/synthesize_training_run.py",
+      "produces": "training-run-findings-json",
+      "offline": true
+    }
+  ],
+  "report_renderers": [
+    {
+      "path": "scripts/render_training_run_report.py",
+      "format": "markdown",
+      "offline": true
+    }
+  ],
+  "fixtures": [
+    {
+      "path": "tests/fixtures/sample-progress.csv",
+      "input_type": "progress-csv"
+    },
+    {
+      "path": "tests/fixtures/sample-run-wandb.json",
+      "input_type": "wandb-export-json"
+    },
+    {
+      "path": "tests/fixtures/malformed-progress.csv",
+      "input_type": "malformed-progress-csv"
+    },
+    {
+      "path": "tests/fixtures/malformed-run.json",
+      "input_type": "malformed-wandb-export-json"
+    }
+  ],
+  "tests": [
+    {
+      "path": "tests/test_adapters.py",
+      "covers": [
+        "importer",
+        "synthesis",
+        "rendering",
+        "malformed-input",
+        "missing-credentials"
+      ]
+    }
+  ]
+}
