@@ -1,7 +1,7 @@
 # Reinforcement Learning Brain
 
 <p align="center">
-  <img src="assets/svg/hero-frontispiece.svg" alt="Reinforcement Learning Brain editorial frontispiece" width="100%"/>
+  <img src="assets/brand/cover.webp" alt="reinforcement-learning-second-brain: state, action, reward loop feeding a knowledge brain. Learn, reason, remember, evolve." width="100%"/>
 </p>
 
 A second brain for reinforcement learning that you can actually trust. Every claim traces to a dated primary source, every source has a refresh date, and the whole thing is an Obsidian vault your AI agents can read and operate.
@@ -20,6 +20,17 @@ It ships two artifacts:
 Knowledge flows from verified sources to answers you can cite:
 
 ```mermaid
+%%{init: {"theme": "base", "themeVariables": {
+  "background": "#faf8f3",
+  "primaryColor": "#f7f3ea",
+  "primaryTextColor": "#2c3a4f",
+  "primaryBorderColor": "#b99a5f",
+  "lineColor": "#8195a8",
+  "secondaryColor": "#efe9db",
+  "tertiaryColor": "#faf8f3",
+  "edgeLabelBackground": "#faf8f3",
+  "fontFamily": "Segoe UI, Helvetica, Arial, sans-serif"
+}}}%%
 flowchart LR
     A["Primary sources<br/>papers, docs, PyPI"] -->|"verify URL + date"| B["Source ledger<br/>70 entries"]
     B --> C["Topic dossiers<br/>34 evidence files"]
@@ -34,6 +45,17 @@ flowchart LR
 The 34 topics span five curated themes:
 
 ```mermaid
+%%{init: {"theme": "base", "themeVariables": {
+  "background": "#faf8f3",
+  "primaryTextColor": "#2c3a4f",
+  "fontFamily": "Segoe UI, Helvetica, Arial, sans-serif",
+  "cScale0": "#b99a5f",
+  "cScale1": "#2c3a4f",
+  "cScale2": "#8195a8",
+  "cScale3": "#d8c9a3",
+  "cScale4": "#5b7590",
+  "cScale5": "#efe9db"
+}}}%%
 mindmap
   root(("RL Brain<br/>34 topics"))
     ("Classic foundations")
@@ -61,6 +83,17 @@ mindmap
 The repo also ships working adapters: feed it a training-run export and it flags entropy collapse, KL spikes, and reward collapse with citations back to the debugging canon:
 
 ```mermaid
+%%{init: {"theme": "base", "themeVariables": {
+  "background": "#faf8f3",
+  "primaryColor": "#f7f3ea",
+  "primaryTextColor": "#2c3a4f",
+  "primaryBorderColor": "#b99a5f",
+  "lineColor": "#8195a8",
+  "secondaryColor": "#efe9db",
+  "tertiaryColor": "#faf8f3",
+  "edgeLabelBackground": "#faf8f3",
+  "fontFamily": "Segoe UI, Helvetica, Arial, sans-serif"
+}}}%%
 flowchart LR
     A["Training run<br/>CSV or W&B JSON"] --> B["import_training_run.py<br/>validate + normalize"]
     B --> C["synthesize_training_run.py<br/>detect failure patterns"]
