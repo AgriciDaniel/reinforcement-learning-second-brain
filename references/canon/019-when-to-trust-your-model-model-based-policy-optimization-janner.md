@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "019. When to Trust Your Model Model-Based Policy Optimization (Janner et al., MBPO)"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -42,7 +42,7 @@ Ledger: 019 | source: When to Trust Your Model Model-Based Policy Optimization (
 
 ## Source
 
-Source: [When to Trust Your Model Model-Based Policy Optimization (Janner et al., MBPO)](https://arxiv.org/abs/1906.08253); type primary; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [When to Trust Your Model Model-Based Policy Optimization (Janner et al., MBPO)](https://arxiv.org/abs/1906.08253); type primary; retrieved 2026-07-22; refresh_due 2027-07-29.
 
 ## Brain Hooks
 

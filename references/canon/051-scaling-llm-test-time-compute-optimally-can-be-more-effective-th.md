@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "051. Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -41,7 +41,7 @@ Ledger: 051 | source: Scaling LLM Test-Time Compute Optimally can be More Effect
 
 ## Source
 
-Source: [Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling](https://arxiv.org/abs/2408.03314); type primary; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling](https://arxiv.org/abs/2408.03314); type primary; retrieved 2026-07-22; refresh_due 2027-01-21.
 
 ## Brain Hooks
 

@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "005. Berkeley CS285 Deep Reinforcement Learning (Levine, Spring 2026)"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -42,7 +42,7 @@ Ledger: 005 | source: Berkeley CS285 Deep Reinforcement Learning (Levine, Spring
 
 ## Source
 
-Source: [Berkeley CS285 Deep Reinforcement Learning (Levine, Spring 2026)](https://rail.eecs.berkeley.edu/deeprlcourse/); type official; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [Berkeley CS285 Deep Reinforcement Learning (Levine, Spring 2026)](https://rail.eecs.berkeley.edu/deeprlcourse/); type official; retrieved 2026-07-22; refresh_due 2026-10-24.
 
 ## Brain Hooks
 

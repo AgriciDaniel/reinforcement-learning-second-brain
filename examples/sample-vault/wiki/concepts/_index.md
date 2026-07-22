@@ -1,12 +1,12 @@
 ---
 type: "hub"
 title: "Concepts Hub"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/hub"
   - "#confidence/practitioner"
 confidence: "practitioner"
@@ -102,6 +102,8 @@ This hub keeps the `wiki/concepts/` layer navigable. It is not a dumping ground;
 ## Notes
 
 Add generated notes here and keep this hub linked both ways.
+
+- [[RL for computer-use and tool-use agents]]
 
 ## See Also
 

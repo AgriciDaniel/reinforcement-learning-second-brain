@@ -6,7 +6,7 @@ ML engineers, researchers, and AI builders who need repeatable, source-cited rei
 
 ## Domain
 
-reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices
+reinforcement learning
 
 ## Core Workflows
 

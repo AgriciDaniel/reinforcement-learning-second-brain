@@ -1,12 +1,12 @@
 ---
 type: "platform"
 title: "Input Schema training run.schema"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/platform"
   - "#confidence/practitioner"
 confidence: "practitioner"

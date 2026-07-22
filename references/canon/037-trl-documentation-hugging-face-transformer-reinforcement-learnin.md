@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "037. TRL Documentation (Hugging Face Transformer Reinforcement Learning)"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -42,7 +42,7 @@ Ledger: 037 | source: TRL Documentation (Hugging Face Transformer Reinforcement 
 
 ## Source
 
-Source: [TRL Documentation (Hugging Face Transformer Reinforcement Learning)](https://huggingface.co/docs/trl/index); type official; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [TRL Documentation (Hugging Face Transformer Reinforcement Learning)](https://huggingface.co/docs/trl/index); type official; retrieved 2026-07-22; refresh_due 2026-08-26.
 
 ## Brain Hooks
 

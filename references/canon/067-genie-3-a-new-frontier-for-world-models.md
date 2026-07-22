@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "067. Genie 3 A new frontier for world models"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/practitioner"
 confidence: "practitioner"
@@ -28,7 +28,7 @@ related:
   - "[[Weekly Report]]"
   - "[[Approval Queue]]"
 source_urls:
-  - "https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/"
+  - "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/"
 ---
 
 # 067. Genie 3 A new frontier for world models
@@ -41,7 +41,7 @@ Ledger: 067 | source: Genie 3 A new frontier for world models | confidence: prac
 
 ## Source
 
-Source: [Genie 3 A new frontier for world models](https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/); type vendor; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [Genie 3 A new frontier for world models](https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/); type vendor; retrieved 2026-07-22; refresh_due 2026-10-26.
 
 ## Brain Hooks
 

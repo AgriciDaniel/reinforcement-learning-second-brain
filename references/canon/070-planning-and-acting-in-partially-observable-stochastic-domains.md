@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "070. Planning and Acting in Partially Observable Stochastic Domains"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -41,7 +41,7 @@ Ledger: 070 | source: Planning and Acting in Partially Observable Stochastic Dom
 
 ## Source
 
-Source: [Planning and Acting in Partially Observable Stochastic Domains](https://people.csail.mit.edu/lpk/papers/aij98-pomdp.pdf); type primary; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [Planning and Acting in Partially Observable Stochastic Domains](https://people.csail.mit.edu/lpk/papers/aij98-pomdp.pdf); type primary; retrieved 2026-07-22; refresh_due 2027-07-23.
 
 ## Brain Hooks
 

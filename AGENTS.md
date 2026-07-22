@@ -35,6 +35,10 @@ runtimes that load project-level `AGENTS.md` instructions.
 ```bash
 python -m compileall scripts reinforcement_learning_brain tests
 python tests/test_pipeline.py
+python tests/test_adapters.py
+python scripts/lint_vault.py --vault assets/template-brain --template
+python scripts/build_demo_vault.py
+git diff --exit-code -- examples/sample-vault
 python scripts/audit_brain.py --json
-python scripts/package_release.py --version 0.1.0
+python scripts/package_release.py --version 1.1.0
 ```

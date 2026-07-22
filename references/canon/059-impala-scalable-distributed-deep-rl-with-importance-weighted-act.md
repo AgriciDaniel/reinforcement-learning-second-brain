@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "059. IMPALA Scalable Distributed Deep-RL with Importance Weighted Actor-Learner"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -41,7 +41,7 @@ Ledger: 059 | source: IMPALA Scalable Distributed Deep-RL with Importance Weight
 
 ## Source
 
-Source: [IMPALA Scalable Distributed Deep-RL with Importance Weighted Actor-Learner](https://arxiv.org/abs/1802.01561); type primary; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [IMPALA Scalable Distributed Deep-RL with Importance Weighted Actor-Learner](https://arxiv.org/abs/1802.01561); type primary; retrieved 2026-07-22; refresh_due 2027-07-27.
 
 ## Brain Hooks
 

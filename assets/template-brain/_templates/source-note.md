@@ -1,12 +1,12 @@
 ---
 type: "source"
 title: "{{title}}"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "draft"
 created: "{{date}}"
 updated: "{{date}}"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/source"
   - "#confidence/practitioner"
 confidence: "practitioner"

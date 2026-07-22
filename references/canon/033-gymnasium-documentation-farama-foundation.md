@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "033. Gymnasium Documentation (Farama Foundation)"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -42,7 +42,7 @@ Ledger: 033 | source: Gymnasium Documentation (Farama Foundation) | confidence: 
 
 ## Source
 
-Source: [Gymnasium Documentation (Farama Foundation)](https://gymnasium.farama.org/); type official; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [Gymnasium Documentation (Farama Foundation)](https://gymnasium.farama.org/); type official; retrieved 2026-07-22; refresh_due 2026-08-22.
 
 ## Brain Hooks
 

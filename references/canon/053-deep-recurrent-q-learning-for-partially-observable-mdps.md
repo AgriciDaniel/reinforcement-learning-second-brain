@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "053. Deep Recurrent Q-Learning for Partially Observable MDPs"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -41,7 +41,7 @@ Ledger: 053 | source: Deep Recurrent Q-Learning for Partially Observable MDPs | 
 
 ## Source
 
-Source: [Deep Recurrent Q-Learning for Partially Observable MDPs](https://arxiv.org/abs/1507.06527); type primary; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [Deep Recurrent Q-Learning for Partially Observable MDPs](https://arxiv.org/abs/1507.06527); type primary; retrieved 2026-07-22; refresh_due 2027-07-24.
 
 ## Brain Hooks
 

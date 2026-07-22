@@ -1,7 +1,7 @@
 {
   "version": 1,
   "status": "adapted",
-  "domain": "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices",
+  "domain": "reinforcement learning",
   "generic_only": false,
   "raw_input_types": [
     "Papers (arXiv PDFs), official library docs, course notes, experiment logs, training configs, and TensorBoard/W&B exports supplied by the operator"

@@ -1,12 +1,12 @@
 ---
 type: "question"
 title: "Which current official source resolves the highest-risk state-of-the-art claim"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "seed"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/question"
   - "#confidence/practitioner"
 confidence: "practitioner"

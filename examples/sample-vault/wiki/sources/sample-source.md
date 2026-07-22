@@ -1,12 +1,12 @@
 ---
 type: "source"
 title: "sample-source"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/source"
   - "#confidence/practitioner"
 confidence: "practitioner"
@@ -24,7 +24,7 @@ sources:
 ## Source
 
 - Path: `.raw/sources/sample-source.md`
-- Hash: `0d5d9ebd6898556e7818b57bcd606b7990321f7f20545f76699452a10dc4e279`
+- Hash: `6990c1a1e34c9154c389a62ccd8367f08ca5cb2a630732e5cf9f786d113d5ea1`
 - Retrieved: 2026-07-22
 - Type: fixture
 

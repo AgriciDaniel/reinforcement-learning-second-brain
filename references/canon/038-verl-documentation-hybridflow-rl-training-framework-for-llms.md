@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "038. verl Documentation (HybridFlow RL training framework for LLMs)"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -42,7 +42,7 @@ Ledger: 038 | source: verl Documentation (HybridFlow RL training framework for L
 
 ## Source
 
-Source: [verl Documentation (HybridFlow RL training framework for LLMs)](https://verl.readthedocs.io/en/latest/); type official; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [verl Documentation (HybridFlow RL training framework for LLMs)](https://verl.readthedocs.io/en/latest/); type official; retrieved 2026-07-22; refresh_due 2026-08-27.
 
 ## Brain Hooks
 

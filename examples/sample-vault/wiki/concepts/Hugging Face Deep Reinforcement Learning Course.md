@@ -1,12 +1,12 @@
 ---
 type: "concept"
 title: "Hugging Face Deep Reinforcement Learning Course"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/concept"
   - "#confidence/practitioner"
 confidence: "practitioner"
@@ -40,7 +40,7 @@ source_urls:
 
 ## Source
 
-Source: [Hugging Face Deep Reinforcement Learning Course](https://huggingface.co/learn/deep-rl-course/unit0/introduction); type official; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [Hugging Face Deep Reinforcement Learning Course](https://huggingface.co/learn/deep-rl-course/unit0/introduction); type official; retrieved 2026-07-22; refresh_due 2026-10-27.
 
 > [!gap]
 > Ledger confidence is medium/practitioner. Treat this as useful operating evidence, not settled authority, until stronger support is captured.

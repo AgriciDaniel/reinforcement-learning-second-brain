@@ -30,7 +30,7 @@
 - [ ] `python -m compileall scripts reinforcement_learning_brain tests`
 - [ ] `python tests/test_pipeline.py`
 - [ ] `python scripts/build_demo_vault.py`
-- [ ] `python scripts/package_release.py --version 0.1.0`
+- [ ] `python scripts/package_release.py --version 1.1.0`
 - [ ] No secrets, private client data, or local absolute paths in artifacts.
 - [ ] Market-ready release is blocked unless audit score is at least 90 with no critical failures.
 - [ ] `references/adapter-manifest.json` names real schemas, importer paths,

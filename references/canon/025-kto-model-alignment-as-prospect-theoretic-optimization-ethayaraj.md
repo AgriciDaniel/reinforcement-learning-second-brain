@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "025. KTO Model Alignment as Prospect Theoretic Optimization (Ethayarajh et al.)"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -42,7 +42,7 @@ Ledger: 025 | source: KTO Model Alignment as Prospect Theoretic Optimization (Et
 
 ## Source
 
-Source: [KTO Model Alignment as Prospect Theoretic Optimization (Ethayarajh et al.)](https://arxiv.org/abs/2402.01306); type primary; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [KTO Model Alignment as Prospect Theoretic Optimization (Ethayarajh et al.)](https://arxiv.org/abs/2402.01306); type primary; retrieved 2026-07-22; refresh_due 2027-01-24.
 
 ## Brain Hooks
 

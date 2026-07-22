@@ -1,12 +1,12 @@
 ---
 type: "overview"
 title: "Overview"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/overview"
   - "#confidence/practitioner"
 confidence: "practitioner"
@@ -40,7 +40,7 @@ source_urls: []
 
 # Overview
 
-Reinforcement Learning Brain is a persistent operating brain for reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices.
+Reinforcement Learning Brain is a persistent operating brain for reinforcement learning, covering fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices.
 
 ![[brain-relationship-map.svg]]
 

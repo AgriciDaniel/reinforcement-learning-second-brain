@@ -164,8 +164,8 @@ research notes do not satisfy the gate.
 ## Release
 
 ```bash
-python scripts/package_release.py --version 0.1.0
-python scripts/package_release.py --version 1.0.0 --release-type market-ready
+python scripts/package_release.py --version 1.1.0
+python scripts/package_release.py --version 1.1.0 --release-type market-ready
 ```
 
 Release packaging scans for secrets, local paths, symlinks, untracked drift,

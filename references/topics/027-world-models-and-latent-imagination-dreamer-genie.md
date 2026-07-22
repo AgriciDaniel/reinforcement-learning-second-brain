@@ -2,7 +2,7 @@
 type: "canon"
 title: "027. World models and latent imagination (Dreamer, Genie)"
 created: "2026-07-22"
-updated: "2026-07-22"
+updated: "2026-07-23"
 status: "active"
 ---
 
@@ -44,6 +44,14 @@ MuZero learns recurrent latent dynamics that predict reward, policy, and value q
 
 Google DeepMind describes Genie 3 as an autoregressive world model that generates promptable interactive visual environments and responds to user actions. The official post presents it as an environment substrate, not as a complete reward function or RL optimizer. [evidence-based]
 
+### 2026 scoped extensions
+
+Waymo's February 2026 vendor post describes a Genie 3-based world model for autonomous-driving simulation with camera and lidar outputs conditioned on driving actions, layout, and language controls. It is a vendor-qualified simulation claim, not proof of safe autonomous driving or a validated RL environment. [practitioner]
+
+Dreamer-CDP proposes a reconstruction-free, continuous deterministic representation predictor in a Dreamer-adjacent setting. Its reported Crafter comparison is a single-paper, benchmark-scoped result rather than a Dreamer successor or a general reliability claim. [contested]
+
+The behavior-consistency paper proposes a Behavior Consistency Reward for text-based world models and reports results in WebShop and TextWorld. Its text-agent surrogate-environment evidence does not transfer automatically to visual interactive generation, driving simulation, or physical environments. [contested]
+
 ## Key Principles
 
 - A control-relevant model need not reproduce every observation detail, but it must preserve distinctions that alter feasible actions, rewards, continuation, or downstream value. [evidence-based]
@@ -65,6 +73,7 @@ Google DeepMind describes Genie 3 as an autoregressive world model that generate
 - Begin with short imagination horizons and extend them only after policy-conditioned multi-step validation. [practitioner]
 - Refresh the world model as the policy changes its visitation distribution, and retain real-data anchors during synthetic training. [practitioner]
 - Match real interaction, model-training compute, policy-update compute, and decision-time planning budgets in comparative evaluation. [evidence-based]
+- Evaluate visual interactive generation, driving simulation, and text-agent surrogate environments against their own action, observation, and safety contracts before treating them as RL training environments. [practitioner]
 
 ## Primary Sources
 
@@ -74,6 +83,9 @@ Google DeepMind describes Genie 3 as an autoregressive world model that generate
 - Jack Parker-Holder and Shlomi Fruchter, 2025, "Genie 3: A new frontier for world models," Google DeepMind, [official post](https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/).
 - Michael Janner, Justin Fu, Marvin Zhang, and Sergey Levine, 2019, "When to Trust Your Model: Model-Based Policy Optimization," arXiv:1906.08253, [paper](https://arxiv.org/abs/1906.08253).
 - Julian Schrittwieser et al., 2019, "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model," arXiv:1911.08265, [paper](https://arxiv.org/abs/1911.08265).
+- Waymo, "The Waymo World Model: A New Frontier For Autonomous Driving Simulation," [official post](https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation/), 2026-02-06. Vendor claim.
+- "Dreamer-CDP: Improving Reconstruction-free World Models Via Continuous Deterministic Representation Prediction," [arXiv:2603.07083](https://arxiv.org/abs/2603.07083), 2026-03-07. SINGLE-SOURCE for reported results.
+- "Beyond State Consistency: Behavior Consistency in Text-Based World Models," [arXiv:2604.13824](https://arxiv.org/abs/2604.13824), 2026-04-15. SINGLE-SOURCE for reported results.
 
 ## Evidence Caveats
 
@@ -84,6 +96,8 @@ Google DeepMind describes Genie 3 as an autoregressive world model that generate
 - The Genie 3 anchor is an official vendor post describing a limited research preview rather than an independently replicated paper. [practitioner]
 - Visual consistency in a generated environment does not establish correct physics, counterfactual validity, or safe transfer to physical systems. [evidence-based]
 - State-of-the-art and universal-efficiency claims require current reproduction under a named, compute-accounted protocol and remain contested otherwise. [contested]
+- Visual interactive generation, autonomous-driving simulation, and text-agent surrogate environments have different action semantics, observation models, hazards, and validation requirements; none establishes a universally reliable environment for RL or computer use. [evidence-based]
+- The Waymo post is vendor evidence, while Dreamer-CDP and behavior consistency are single-source preprints. Their reported results are bounded mechanisms, not independent replication or a cross-environment ranking. [contested]
 
 ## Brain Hooks
 

@@ -1,12 +1,12 @@
 ---
 type: "concept"
 title: "RL tooling landscape (Gymnasium, SB3, CleanRL, RLlib, TRL, veRL, OpenRLHF)"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/concept"
   - "#confidence/practitioner"
 confidence: "practitioner"
@@ -35,6 +35,7 @@ related:
   - "[[wiki/questions/_index|Questions Hub]]"
   - "[[wiki/gaps/_index|Gaps Hub]]"
   - "[[wiki/experiments/_index|Experiments Hub]]"
+  - "[[RL for computer-use and tool-use agents]]"
 source_urls:
   - "https://gymnasium.farama.org/api/env/"
   - "https://stable-baselines3.readthedocs.io/en/master/"
@@ -74,6 +75,9 @@ There is no evidence here that one framework is universally best across classic 
 - Keep training and evaluation processes distinct, preserve raw per-episode results, and version checkpoints with their exact preprocessing and generation settings. [practitioner]
 - Scale one axis at a time and log sample throughput, learner throughput, utilization, communication time, queue depth, and policy lag where applicable. [practitioner]
 - Review release notes and migration guides before an upgrade, then rerun correctness and reproducibility checks under the new version. [evidence-based]
+- Treat Async GRPO and VESPO as explicitly versioned experimental TRL paths, and rerun objective and data-pipeline tests when moving between TRL minor releases. [practitioner]
+- For TRL 1.9 iterable GRPO or RLOO inputs, set and record `max_steps`, preserve grouped prompts, and confirm the enforced `dispatch_batches=False` path before scaling. [practitioner]
+- Keep vime and Miles in an evaluated watchlist until independent reproducibility, systems, and performance evidence is available. [practitioner]
 
 ## Evidence Caveats
 
@@ -85,6 +89,9 @@ There is no evidence here that one framework is universally best across classic 
 - TRL, veRL, and OpenRLHF evolve rapidly, so named trainer and backend support should be checked against the pinned release. [verified]
 - Similar algorithm labels can conceal different loss normalization, KL estimation, clipping, batching, reward, and generation semantics. [evidence-based]
 - Framework choice cannot compensate for an invalid environment, misspecified reward, weak evaluation protocol, or inadequate statistical reporting. [evidence-based]
+- The release snapshot is date-bound. CleanRL's divergent PyPI and GitHub release labels support only a slow release-activity description, not a conclusion that its repository is archived or unusable. [verified]
+- TRL versioned documentation establishes interface and configuration availability, not that Async GRPO, VESPO, streaming GRPO, or `sigmoid_norm` is a best recipe for a particular workload. [verified]
+- vime and Miles remain maintainer or vendor descriptions without an independent benchmark, scalability, stability, or training-quality comparison. [practitioner]
 
 ## Sources
 
@@ -97,6 +104,9 @@ There is no evidence here that one framework is universally best across classic 
 - veRL maintainers, [veRL documentation](https://verl.readthedocs.io/en/latest/). Official documentation for the distributed reinforcement-learning training framework. [verified]
 - OpenRLHF maintainers, [OpenRLHF documentation](https://openrlhf.readthedocs.io/en/latest/). Official installation, training, and distributed-system documentation. [verified]
 - Jian Hu et al., 2024, [OpenRLHF: An Easy-to-use, Scalable and High-performance RLHF Framework](https://arxiv.org/abs/2405.11143). Project paper describing the framework's architecture and reported experiments. [evidence-based]
+- Tooling release snapshot, [Gymnasium 1.3.0](https://github.com/Farama-Foundation/Gymnasium/releases/tag/v1.3.0), 2026-04-22; [Stable-Baselines3 2.9.0](https://github.com/DLR-RM/stable-baselines3/releases/tag/v2.9.0), 2026-06-15; [Ray 2.56.1](https://github.com/ray-project/ray/releases/tag/ray-2.56.1), 2026-07-17; [TRL 1.9.0 release notes](https://github.com/huggingface/trl/releases), 2026-07-21; [veRL 0.8.0](https://github.com/verl-project/verl/releases/tag/v0.8.0), 2026-06-01; [OpenRLHF 0.10.4](https://github.com/OpenRLHF/OpenRLHF/releases/tag/v0.10.4), 2026-06-08. [verified]
+- Hugging Face, [TRL v1.0.0 release notes](https://github.com/huggingface/trl/releases/tag/v1.0.0), 2026-03-31; and [DPO trainer documentation](https://huggingface.co/docs/trl/dpo_trainer), version 1.9.0. [verified]
+- vLLM Project, [vime announcement](https://vllm-project.github.io/2026/06/09/announcing-vime.html), 2026-06-09; and PyTorch, [Miles announcement](https://pytorch.org/blog/miles-a-pytorch-native-stack-for-large-scale-llm-rl-post-training/), 2026-06-30. [practitioner]
 - [[Source Manifest Guide]]
 - [[Claim Verification Flow]]
 

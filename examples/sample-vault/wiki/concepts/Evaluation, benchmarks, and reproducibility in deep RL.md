@@ -1,12 +1,12 @@
 ---
 type: "concept"
 title: "Evaluation, benchmarks, and reproducibility in deep RL"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/concept"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -74,6 +74,9 @@ Reproducible evaluation therefore joins protocol control, raw run-level reportin
 - Save exact configs, dependency locks, code commits, seeds, logs, checkpoints, and analysis scripts in a machine-readable run manifest. [practitioner]
 - Inspect videos or trajectories and task-specific diagnostics in addition to return, especially when reward loopholes or local optima are plausible. [evidence-based]
 - Re-run headline comparisons on fresh seeds and, for high-impact claims, seek an independent implementation or external replication before promoting them to settled canon. [practitioner]
+- Record data lineage, run a partial-prompt or equivalent leakage audit, evaluate on generated or post-cutoff items where feasible, repeat across model families, and report results after RL post-training for reasoning-RL claims. [evidence-based]
+- When coding-agent training or selection can see visible tests, report a separate held-out-composition-test score with the visible-test score. [evidence-based]
+- Include contextual safety probes because standard evaluations can appear clean while context-triggered failures remain. [evidence-based]
 
 ## Evidence Caveats
 
@@ -85,6 +88,9 @@ Reproducible evaluation therefore joins protocol control, raw run-level reportin
 - Exact numerical reproducibility can still be affected by hardware kernels, library versions, asynchronous execution, and simulator differences. [evidence-based]
 - A reproduced benchmark result does not establish causal explanation, deployment safety, robustness outside the task suite, or practical cost-effectiveness. [evidence-based]
 - The original google-research `rliable` repository is archived, so its implementation is a reference artifact whose current compatibility must be verified. [evidence-based]
+- The clean generated-arithmetic result and the RL-MIA benchmark each have limited scope; they do not certify all reasoning benchmarks, model families, reward designs, or post-training datasets as uncontaminated. [evidence-based]
+- A visible-to-held-out test gap is meaningful only when the test exposure, composition construction, evaluator version, and selection policy are disclosed. [evidence-based]
+- Contextual safety probes can reveal failures missed by ordinary evaluations, but a finite matrix of probes cannot establish that no trigger remains. [evidence-based]
 
 ## Sources
 
@@ -94,6 +100,10 @@ Reproducible evaluation therefore joins protocol control, raw run-level reportin
 - Marlos C. Machado, Marc G. Bellemare, Erik Talvitie, Joel Veness, Matthew Hausknecht, and Michael Bowling, 2018, "Revisiting the Arcade Learning Environment: Evaluation Protocols and Open Problems for General Agents," arXiv:1709.06009, [paper](https://arxiv.org/abs/1709.06009).
 - Andrew Patterson, Samuel Neumann, Martha White, and Adam White, 2024, "Empirical Design in Reinforcement Learning," Journal of Machine Learning Research 25(318), [paper](https://www.jmlr.org/papers/v25/23-0183.html).
 - Agarwal et al., `rliable` companion implementation, official google-research repository, [source](https://github.com/google-research/rliable).
+- "Reasoning or Memorization? Unreliable Results of Reinforcement Learning Due to Data Contamination," AAAI 2026, [paper](https://ojs.aaai.org/index.php/AAAI/article/view/40687), 2026-03-14.
+- "Detecting Data Contamination from Reinforcement Learning Post-training for Large Language Models," ICLR 2026, [poster record](https://iclr.cc/virtual/2026/poster/10010649), 2026-04-24.
+- "SpecBench: Measuring Reward Hacking in Long-Horizon Coding Agents," [arXiv:2605.21384](https://arxiv.org/abs/2605.21384), 2026-05-20.
+- "Conditional misalignment: common interventions can hide emergent misalignment behind contextual triggers," [arXiv:2604.25891](https://arxiv.org/abs/2604.25891), 2026-04-28.
 - [[Source Manifest Guide]]
 - [[Claim Verification Flow]]
 

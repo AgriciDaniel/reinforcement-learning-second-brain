@@ -1,12 +1,12 @@
 ---
 type: "concept"
 title: "Test-time compute and search for reasoning models"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/concept"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -73,6 +73,7 @@ No cited strategy establishes a universal compute-scaling rule across model fami
 - Log candidates, prefix scores, pruning decisions, visit counts, verifier calls, stopping causes, and external correctness. [practitioner]
 - Track answer diversity, duplicate rate, trace length, branch survival, score-correctness divergence, and results by difficulty slice. [practitioner]
 - Red-team high-scoring wrong traces with an independent checker before increasing the search budget. [practitioner]
+- Report the training-rollout and deployment-rollout budgets separately, including any mismatch between post-training sampling and best-of-N or search-time aggregation. [evidence-based]
 
 ## Evidence Caveats
 
@@ -83,6 +84,8 @@ No cited strategy establishes a universal compute-scaling rule across model fami
 - Selecting a maximum from more noisy scores creates more opportunity for proxy exploitation even when average verifier accuracy appears stable. [evidence-based]
 - Token count alone does not capture architecture, cache reuse, batching, verifier cost, memory, or serial latency. [practitioner]
 - Comparative or state-of-the-art claims remain contested without a current, contamination-audited, compute-matched protocol. [contested]
+- The 2026 adaptive-allocation, compute-aligned-training, and scaling-law papers provide mechanisms and bounded empirical evidence, not a universal answer to whether additional test-time compute is preferable to RL training. [contested]
+- Training and deployment rollouts can use different budgets and aggregation rules, so results must disclose the mismatch rather than comparing nominal token counts alone. [evidence-based]
 
 ## Sources
 
@@ -91,6 +94,9 @@ No cited strategy establishes a universal compute-scaling rule across model fami
 - DeepSeek-AI et al., 2025, "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning," arXiv:2501.12948, [paper](https://arxiv.org/abs/2501.12948).
 - Aradhye Agarwal, Ayan Sengupta, and Tanmoy Chakraborty, 2025, "The Art of Scaling Test-Time Compute for Large Language Models," arXiv:2512.02008, [paper](https://arxiv.org/abs/2512.02008).
 - Shibo Hao, Yi Gu, Haodi Ma, Joshua Jiahua Hong, Zhen Wang, Daisy Zhe Wang, and Zhiting Hu, 2023, "Reasoning with Language Model is Planning with World Model," arXiv:2305.14992, [paper](https://arxiv.org/abs/2305.14992).
+- "What If We Allocate Test-Time Compute Adaptively?" [arXiv:2602.01070](https://arxiv.org/abs/2602.01070), 2026-02-01. SINGLE-SOURCE for reported results.
+- "Compute Aligned Training: Optimizing for Test Time Inference," [arXiv:2604.24957](https://arxiv.org/abs/2604.24957), 2026-04-27. SINGLE-SOURCE for reported results.
+- "What should post-training optimize? A test-time scaling law perspective," [arXiv:2605.10716](https://arxiv.org/abs/2605.10716), 2026-05-11. SINGLE-SOURCE for stated mechanism and reported results.
 - [[Source Manifest Guide]]
 - [[Claim Verification Flow]]
 

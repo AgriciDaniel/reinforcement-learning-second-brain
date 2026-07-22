@@ -11,8 +11,8 @@ from typing import Any
 
 
 REPO = Path(__file__).resolve().parent.parent
-DOMAIN = "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
-DOMAIN_SLUG = "reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+DOMAIN = "reinforcement learning"
+DOMAIN_SLUG = "reinforcement-learning"
 CONFIDENCE_LEVELS = {"evidence-based", "practitioner", "contested", "folklore"}
 CONFIDENCE_ALIASES = {
     "high": "evidence-based",
@@ -56,12 +56,12 @@ def main(argv: list[str] | None = None) -> int:
     write(vault / "wiki" / "deliverables" / "Health Scorecard.md", f"""---
 type: "deliverable"
 title: "Health Scorecard"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "{DOMAIN}"
 status: "draft"
 created: "{date.today().isoformat()}"
 updated: "{date.today().isoformat()}"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/{DOMAIN_SLUG}"
   - "#type/deliverable"
   - "#confidence/practitioner"
 confidence: "practitioner"
@@ -91,12 +91,12 @@ Related: [[Action Roadmap]] | [[Weekly Report]] | [[Source Manifest Guide]]
     write(vault / "wiki" / "deliverables" / "Action Roadmap.md", f"""---
 type: "deliverable"
 title: "Action Roadmap"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "{DOMAIN}"
 status: "draft"
 created: "{date.today().isoformat()}"
 updated: "{date.today().isoformat()}"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/{DOMAIN_SLUG}"
   - "#type/deliverable"
   - "#confidence/practitioner"
 confidence: "practitioner"
@@ -125,12 +125,12 @@ Related: [[Approval Queue]] | [[Health Scorecard]] | [[Best Practices Kernel]]
     write(vault / "wiki" / "reports" / "Weekly Report.md", f"""---
 type: "report"
 title: "Weekly Report"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "{DOMAIN}"
 status: "draft"
 created: "{date.today().isoformat()}"
 updated: "{date.today().isoformat()}"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/{DOMAIN_SLUG}"
   - "#type/report"
   - "#confidence/practitioner"
 confidence: "practitioner"

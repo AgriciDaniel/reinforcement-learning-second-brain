@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "060. Distributed Prioritized Experience Replay"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -41,7 +41,7 @@ Ledger: 060 | source: Distributed Prioritized Experience Replay | confidence: ev
 
 ## Source
 
-Source: [Distributed Prioritized Experience Replay](https://arxiv.org/abs/1803.00933); type primary; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [Distributed Prioritized Experience Replay](https://arxiv.org/abs/1803.00933); type primary; retrieved 2026-07-22; refresh_due 2027-07-24.
 
 ## Brain Hooks
 

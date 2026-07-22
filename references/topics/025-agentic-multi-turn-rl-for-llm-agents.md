@@ -2,7 +2,7 @@
 type: "canon"
 title: "025. Agentic multi-turn RL for LLM agents"
 created: "2026-07-22"
-updated: "2026-07-22"
+updated: "2026-07-23"
 status: "active"
 ---
 
@@ -40,6 +40,16 @@ A useful trajectory record includes policy version, prompt and memory state, gen
 
 The repeated loop is reset an environment, roll out a complete interaction, validate terminal success, compute returns or advantages, update the policy under a defined lag policy, and evaluate on frozen tasks with controlled tool behavior. [evidence-based]
 
+### Scope boundary for computer and tool use
+
+Computer-use, browser, terminal, software-engineering, and API-tool environments are concrete task domains rather than interchangeable examples of the abstract agentic-RL formulation. They have distinct action spaces, side effects, success checkers, reset semantics, and cost models. [[RL for computer-use and tool-use agents]] treats those environment contracts as a dedicated dossier. [evidence-based]
+
+The April 2026 review and the landscape survey, arXiv v5 revised 2026-04-17, are taxonomy and scope references. They do not validate a new paper's performance or make results comparable across OSWorld, SWE-bench, Terminal-Bench, WebShop, or ALFWorld. [evidence-based]
+
+RSPO is a single-paper example of the tension between dense process signals and an outcome-reward objective for stateful multi-turn agents. It is not a settled solution to reward alignment. [contested]
+
+TRL v1.6.0 documents stateful `environment_factory` training, a multi-turn tool-call loop, and a multi-environment GRPO routing pattern. This is version-pinned implementation capability, not a comparison with veRL or an empirical claim that multi-environment training improves every agent. [verified]
+
 ## Key Principles
 
 - Multi-turn tool use is usually a POMDP because the agent observes messages and tool outputs rather than every variable that determines future transitions. [evidence-based]
@@ -61,12 +71,16 @@ The repeated loop is reset an environment, roll out a complete interaction, vali
 - Test deterministic resets, timeout paths, malformed tool calls, duplicated calls, unavailable tools, and partial failures before scaling rollout volume. [practitioner]
 - Evaluate with held-out goals, perturbed tool responses, independent user simulators, and frozen success checkers to expose simulator-specific shortcuts. [practitioner]
 - Inspect complete trajectories and side effects, not only scalar reward, before making comparative claims about agent quality. [evidence-based]
+- Record the harness, action interface, verifier, budget, timeout policy, and version before comparing computer-use, terminal, SWE, browser, or tool-use agents. [evidence-based]
+- Treat stateful-environment and multi-environment trainer features as version-pinned implementation contracts, then test reset isolation and routing with a deterministic probe. [practitioner]
 
 ## Primary Sources
 
-- Guibin Zhang et al., 2025, "The Landscape of Agentic Reinforcement Learning for LLMs: A Survey," arXiv:2509.02547, [paper](https://arxiv.org/abs/2509.02547).
+- Guibin Zhang et al., 2025, "The Landscape of Agentic Reinforcement Learning for LLMs: A Survey," arXiv:2509.02547, [paper](https://arxiv.org/abs/2509.02547), arXiv v5 revised 2026-04-17.
 - Bowen Jin, Hansi Zeng, Zhenrui Yue, Dong Wang, Hamed Zamani, and Jiawei Han, 2025, "Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning," arXiv:2503.09516, [paper](https://arxiv.org/abs/2503.09516).
 - Weikang Zhao, Xili Wang, Chengdi Ma, Lingbin Kong, Zhaohua Yang, Mingxiang Tuo, Xiaowei Shi, Yitao Zhai, and Xunliang Cai, 2025, "MUA-RL: Multi-turn User-interacting Agent Reinforcement Learning for agentic tool use," arXiv:2508.18669, [paper](https://arxiv.org/abs/2508.18669).
+- "RSPO: Reward-Swap Policy Optimization for Multi-Turn LLM Agents," [arXiv:2607.04713](https://arxiv.org/abs/2607.04713), 2026-07-06.
+- Hugging Face, "TRL v1.6.0 OpenEnv Integration for Training LLMs with Environments," [documentation](https://huggingface.co/docs/trl/v1.6.0/en/openenv), 2026-06-11.
 
 ## Evidence Caveats
 
@@ -77,6 +91,9 @@ The repeated loop is reset an environment, roll out a complete interaction, vali
 - Dense turn rewards and learned judges can introduce reward-model errors in addition to the sparse-credit problem they are meant to address. [evidence-based]
 - Policy lag, nonstationary services, and nondeterministic tool responses make asynchronous rollout comparisons sensitive to system details. [evidence-based]
 - Comparative or state-of-the-art agent claims require matched tools, budgets, simulators, success checkers, and failure policies, and remain contested without them. [contested]
+- Environment-specific benchmarks have different action interfaces, verifiers, side effects, reset behavior, and budgets, so paper-reported results must not be transferred across harnesses. [evidence-based]
+- RSPO's process-versus-outcome treatment is a single-source paper claim rather than a general reward-alignment result. [contested]
+- The TRL `environment_factory` capability is specific to the documented v1.6.0 contract and must be rechecked before adoption. [verified]
 
 ## Brain Hooks
 
@@ -89,5 +106,6 @@ The repeated loop is reset an environment, roll out a complete interaction, vali
 - Related canon: [[Policy gradient methods and REINFORCE]]
 - Related canon: [[Evaluation, benchmarks, and reproducibility in deep RL]]
 - Related canon: [[RL tooling landscape (Gymnasium, SB3, CleanRL, RLlib, TRL, veRL, OpenRLHF)]]
+- Task-domain dossier: [[RL for computer-use and tool-use agents]]
 - Source intake path: [[Source Intake Workflow]]
 - Verification path: [[Claim Verification Flow]]

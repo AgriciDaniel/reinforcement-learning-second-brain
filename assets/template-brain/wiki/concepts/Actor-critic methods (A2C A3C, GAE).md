@@ -1,12 +1,12 @@
 ---
 type: "concept"
 title: "Actor-critic methods (A2C A3C, GAE)"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
-created: "{{date}}"
-updated: "{{date}}"
+created: "2026-07-22"
+updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/concept"
   - "#confidence/evidence-based"
 confidence: "evidence-based"

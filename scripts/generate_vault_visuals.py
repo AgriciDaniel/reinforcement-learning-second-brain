@@ -10,8 +10,8 @@ from typing import Any
 
 
 BRAIN_TITLE = "Reinforcement Learning Brain"
-BRAIN_DOMAIN = "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
-BRAIN_TAGLINE = "Source cited Obsidian operating brain for reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices."
+BRAIN_DOMAIN = "reinforcement learning"
+BRAIN_TAGLINE = "This is a source-cited Obsidian operating brain for reinforcement learning."
 
 CB = "#1A73E8"
 CR = "#D93025"

@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "003. Hugging Face Deep Reinforcement Learning Course"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/practitioner"
 confidence: "practitioner"
@@ -42,7 +42,7 @@ Ledger: 003 | source: Hugging Face Deep Reinforcement Learning Course | confiden
 
 ## Source
 
-Source: [Hugging Face Deep Reinforcement Learning Course](https://huggingface.co/learn/deep-rl-course/unit0/introduction); type official; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [Hugging Face Deep Reinforcement Learning Course](https://huggingface.co/learn/deep-rl-course/unit0/introduction); type official; retrieved 2026-07-22; refresh_due 2026-10-27.
 
 ## Brain Hooks
 

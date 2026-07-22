@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "022. Generative Adversarial Imitation Learning (Ho and Ermon, GAIL)"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -42,7 +42,7 @@ Ledger: 022 | source: Generative Adversarial Imitation Learning (Ho and Ermon, G
 
 ## Source
 
-Source: [Generative Adversarial Imitation Learning (Ho and Ermon, GAIL)](https://arxiv.org/abs/1606.03476); type primary; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [Generative Adversarial Imitation Learning (Ho and Ermon, GAIL)](https://arxiv.org/abs/1606.03476); type primary; retrieved 2026-07-22; refresh_due 2027-07-26.
 
 ## Brain Hooks
 

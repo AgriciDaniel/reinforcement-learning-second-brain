@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m compileall:*)",
+      "Bash(python3 -m compileall:*)",
+      "Bash(python scripts/lint_vault.py:*)",
+      "Bash(python3 scripts/lint_vault.py:*)",
+      "Bash(python scripts/audit_brain.py:*)",
+      "Bash(python3 scripts/audit_brain.py:*)",
+      "Bash(python scripts/build_demo_vault.py:*)",
+      "Bash(python3 scripts/build_demo_vault.py:*)",
+      "Bash(python tests/test_pipeline.py:*)",
+      "Bash(python3 tests/test_pipeline.py:*)",
+      "Bash(python tests/test_adapters.py:*)",
+      "Bash(python3 tests/test_adapters.py:*)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/scripts/check_no_em_dash.py\""
+          }
+        ]
+      }
+    ]
+  }
+}

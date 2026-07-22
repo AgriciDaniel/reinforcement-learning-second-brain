@@ -1,12 +1,12 @@
 ---
 type: "meta"
 title: "Uncertainty Eval Policy"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "seed"
-created: "{{date}}"
-updated: "{{date}}"
+created: "2026-07-22"
+updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/meta"
   - "#confidence/practitioner"
 confidence: "practitioner"

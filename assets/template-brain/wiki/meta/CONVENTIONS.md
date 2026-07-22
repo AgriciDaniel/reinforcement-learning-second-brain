@@ -1,12 +1,12 @@
 ---
 type: "meta"
 title: "CONVENTIONS"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "evergreen"
-created: "{{date}}"
-updated: "{{date}}"
+created: "2026-07-22"
+updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/meta"
   - "#confidence/practitioner"
 confidence: "practitioner"
@@ -58,7 +58,7 @@ Use flat YAML. Required fields for wiki notes: type, title, domain, status, crea
 
 Tags are quoted YAML list items and include exactly one domain tag, one type tag, and one confidence tag:
 
-- `#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe`
+- `#domain/reinforcement-learning`
 - `#type/<type>`
 - `#confidence/evidence-based`, `#confidence/practitioner`, `#confidence/contested`, or `#confidence/folklore`
 

@@ -1,12 +1,12 @@
 ---
 type: "meta"
 title: "Tag Taxonomy"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "evergreen"
-created: "{{date}}"
-updated: "{{date}}"
+created: "2026-07-22"
+updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/meta"
   - "#confidence/practitioner"
 confidence: "practitioner"
@@ -48,7 +48,7 @@ Lowercase hierarchical tags govern graph colors, Dataview filters, and note main
 
 ## Domain tags
 
-- `#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe` for reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices notes. This tag drives the primary graph color group in `.obsidian/graph.json`.
+- `#domain/reinforcement-learning` identifies reinforcement learning notes. This tag drives the primary graph color group in `.obsidian/graph.json`.
 
 If a generated brain later adds a real subdomain, add the new `#domain/<subdomain>` tag here first, then add graph color coverage, then update the affected notes.
 

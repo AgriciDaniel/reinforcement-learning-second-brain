@@ -12,6 +12,8 @@ from pathlib import Path
 
 
 MAX_BYTES = 10 * 1024 * 1024
+DOMAIN = "reinforcement learning"
+DOMAIN_SLUG = "reinforcement-learning"
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -43,12 +45,12 @@ def main(argv: list[str] | None = None) -> int:
     source_note.write_text(f"""---
 type: "source"
 title: "{source.stem}"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "{DOMAIN}"
 status: "active"
 created: "{date.today().isoformat()}"
 updated: "{date.today().isoformat()}"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/{DOMAIN_SLUG}"
   - "#type/source"
   - "#confidence/practitioner"
 confidence: "practitioner"

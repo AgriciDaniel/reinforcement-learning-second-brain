@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "028. DeepSeek-R1 Incentivizing Reasoning Capability in LLMs via Reinforcement"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -42,7 +42,7 @@ Ledger: 028 | source: DeepSeek-R1 Incentivizing Reasoning Capability in LLMs via
 
 ## Source
 
-Source: [DeepSeek-R1 Incentivizing Reasoning Capability in LLMs via Reinforcement](https://arxiv.org/abs/2501.12948); type primary; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [DeepSeek-R1 Incentivizing Reasoning Capability in LLMs via Reinforcement](https://arxiv.org/abs/2501.12948); type primary; retrieved 2026-07-22; refresh_due 2027-01-28.
 
 ## Brain Hooks
 

@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "027. DeepSeekMath Pushing the Limits of Mathematical Reasoning in Open Language"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -42,7 +42,7 @@ Ledger: 027 | source: DeepSeekMath Pushing the Limits of Mathematical Reasoning 
 
 ## Source
 
-Source: [DeepSeekMath Pushing the Limits of Mathematical Reasoning in Open Language](https://arxiv.org/abs/2402.03300); type primary; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [DeepSeekMath Pushing the Limits of Mathematical Reasoning in Open Language](https://arxiv.org/abs/2402.03300); type primary; retrieved 2026-07-22; refresh_due 2027-01-20.
 
 ## Brain Hooks
 

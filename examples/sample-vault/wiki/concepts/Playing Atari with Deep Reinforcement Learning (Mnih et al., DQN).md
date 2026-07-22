@@ -1,12 +1,12 @@
 ---
 type: "concept"
 title: "Playing Atari with Deep Reinforcement Learning (Mnih et al., DQN)"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/concept"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -40,7 +40,7 @@ source_urls:
 
 ## Source
 
-Source: [Playing Atari with Deep Reinforcement Learning (Mnih et al., DQN)](https://arxiv.org/abs/1312.5602); type primary; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [Playing Atari with Deep Reinforcement Learning (Mnih et al., DQN)](https://arxiv.org/abs/1312.5602); type primary; retrieved 2026-07-22; refresh_due 2027-08-04.
 
 
 

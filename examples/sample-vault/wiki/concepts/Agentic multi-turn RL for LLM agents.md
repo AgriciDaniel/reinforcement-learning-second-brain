@@ -1,12 +1,12 @@
 ---
 type: "concept"
 title: "Agentic multi-turn RL for LLM agents"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/concept"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -35,6 +35,7 @@ related:
   - "[[wiki/questions/_index|Questions Hub]]"
   - "[[wiki/gaps/_index|Gaps Hub]]"
   - "[[wiki/experiments/_index|Experiments Hub]]"
+  - "[[RL for computer-use and tool-use agents]]"
 source_urls:
   - "https://arxiv.org/abs/2509.02547"
   - "https://arxiv.org/abs/2503.09516"
@@ -72,6 +73,8 @@ Search-R1 and MUA-RL provide concrete designs for search and user-interacting to
 - Test deterministic resets, timeout paths, malformed tool calls, duplicated calls, unavailable tools, and partial failures before scaling rollout volume. [practitioner]
 - Evaluate with held-out goals, perturbed tool responses, independent user simulators, and frozen success checkers to expose simulator-specific shortcuts. [practitioner]
 - Inspect complete trajectories and side effects, not only scalar reward, before making comparative claims about agent quality. [evidence-based]
+- Record the harness, action interface, verifier, budget, timeout policy, and version before comparing computer-use, terminal, SWE, browser, or tool-use agents. [evidence-based]
+- Treat stateful-environment and multi-environment trainer features as version-pinned implementation contracts, then test reset isolation and routing with a deterministic probe. [practitioner]
 
 ## Evidence Caveats
 
@@ -82,13 +85,18 @@ Search-R1 and MUA-RL provide concrete designs for search and user-interacting to
 - Dense turn rewards and learned judges can introduce reward-model errors in addition to the sparse-credit problem they are meant to address. [evidence-based]
 - Policy lag, nonstationary services, and nondeterministic tool responses make asynchronous rollout comparisons sensitive to system details. [evidence-based]
 - Comparative or state-of-the-art agent claims require matched tools, budgets, simulators, success checkers, and failure policies, and remain contested without them. [contested]
+- Environment-specific benchmarks have different action interfaces, verifiers, side effects, reset behavior, and budgets, so paper-reported results must not be transferred across harnesses. [evidence-based]
+- RSPO's process-versus-outcome treatment is a single-source paper claim rather than a general reward-alignment result. [contested]
+- The TRL `environment_factory` capability is specific to the documented v1.6.0 contract and must be rechecked before adoption. [verified]
 
 ## Sources
 
 - Canon evidence file: `references/topics/025-agentic-multi-turn-rl-for-llm-agents.md`
-- Guibin Zhang et al., 2025, "The Landscape of Agentic Reinforcement Learning for LLMs: A Survey," arXiv:2509.02547, [paper](https://arxiv.org/abs/2509.02547).
+- Guibin Zhang et al., 2025, "The Landscape of Agentic Reinforcement Learning for LLMs: A Survey," arXiv:2509.02547, [paper](https://arxiv.org/abs/2509.02547), arXiv v5 revised 2026-04-17.
 - Bowen Jin, Hansi Zeng, Zhenrui Yue, Dong Wang, Hamed Zamani, and Jiawei Han, 2025, "Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning," arXiv:2503.09516, [paper](https://arxiv.org/abs/2503.09516).
 - Weikang Zhao, Xili Wang, Chengdi Ma, Lingbin Kong, Zhaohua Yang, Mingxiang Tuo, Xiaowei Shi, Yitao Zhai, and Xunliang Cai, 2025, "MUA-RL: Multi-turn User-interacting Agent Reinforcement Learning for agentic tool use," arXiv:2508.18669, [paper](https://arxiv.org/abs/2508.18669).
+- "RSPO: Reward-Swap Policy Optimization for Multi-Turn LLM Agents," [arXiv:2607.04713](https://arxiv.org/abs/2607.04713), 2026-07-06.
+- Hugging Face, "TRL v1.6.0 OpenEnv Integration for Training LLMs with Environments," [documentation](https://huggingface.co/docs/trl/v1.6.0/en/openenv), 2026-06-11.
 - [[Source Manifest Guide]]
 - [[Claim Verification Flow]]
 

@@ -4,15 +4,31 @@ from __future__ import annotations
 import shutil
 import subprocess
 import sys
+from datetime import date
 from pathlib import Path
 
 
 REPO = Path(__file__).resolve().parent.parent
 PY = sys.executable
+DEMO_DATE = "2026-07-22"
 
 
 def run(args: list[str]) -> None:
     subprocess.run([PY, *args], cwd=REPO, check=True)
+
+
+def normalize_dates(vault: Path) -> None:
+    today = date.today().isoformat()
+    for path in vault.rglob("*"):
+        if not path.is_file():
+            continue
+        try:
+            content = path.read_text(encoding="utf-8")
+        except UnicodeDecodeError:
+            continue
+        normalized = content.replace(today, DEMO_DATE)
+        if normalized != content:
+            path.write_text(normalized, encoding="utf-8")
 
 
 def main() -> int:
@@ -25,6 +41,8 @@ def main() -> int:
     run(["scripts/synthesize_brain.py", "--vault", str(demo)])
     run(["scripts/generate_vault_visuals.py", "--vault", str(demo)])
     run(["scripts/render_brain_report.py", "--vault", str(demo), "--html-only"])
+    normalize_dates(demo)
+    normalize_dates(REPO / "references" / "canon")
     run(["scripts/lint_vault.py", "--vault", str(demo)])
     print(demo)
     return 0

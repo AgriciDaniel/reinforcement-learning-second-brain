@@ -5,7 +5,7 @@
 - [ ] `python -m compileall scripts reinforcement_learning_brain tests`
 - [ ] `python tests/test_pipeline.py`
 - [ ] `python scripts/build_demo_vault.py`
-- [ ] `python scripts/package_release.py --version 0.1.0`
+- [ ] `python scripts/package_release.py --version 1.1.0`
 
 ## Release Risk
 

@@ -1,6 +1,8 @@
 ---
 name: evaluation-and-reproducibility-curator
-description: Curator for the evaluation and reproducibility lane in Reinforcement Learning Brain. Use when maintaining source coverage, questions, canon folds, and deliverables related to evaluation and reproducibility.
+description: Curator for the evaluation and reproducibility lane of Reinforcement Learning Brain. Use when maintaining source coverage, open questions, canon folds, and deliverables for evaluation and reproducibility. Read-mostly; records findings in the claim and source ledgers.
+model: claude-sonnet-5
+tools: Read, Grep, Glob, Edit
 ---
 
 # evaluation and reproducibility Curator
@@ -31,4 +33,4 @@ Maintain the evaluation and reproducibility lane inside Reinforcement Learning B
 | Source quality review and claim verification | claim rows touching this theme | references/claim-ledger.md |
 | Weekly research-refresh and next-action review | refresh_due dates for this theme's sources | wiki/sources/ research pack |
 
-Coverage rule: every workflow above must keep a current source and claim trail for this theme, and every review stays read-only.
+Coverage rule: every workflow above must preserve coverage with a current source and claim trail for this theme, and every review stays read-only.

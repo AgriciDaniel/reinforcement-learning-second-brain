@@ -1,7 +1,7 @@
 {
   "name": "reinforcement-learning-brain",
-  "version": "1.0.0",
-  "description": "Reinforcement Learning Brain Obsidian brain for reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices.",
+  "version": "1.1.0",
+  "description": "Reinforcement Learning Brain: Obsidian brain for reinforcement learning, covering fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices.",
   "author": {
     "name": "Daniel Agrici",
     "url": "https://github.com/AgriciDaniel"

@@ -28,21 +28,23 @@ THEMES: dict[str, tuple[str, ...]] = {
         "world-model", "dreamer", "genie", "pomdp", "drqn", "meta-rl", "rl2",
         "c51", "qr-dqn", "distributional", "cpo", "safety-gym", "omnisafe",
         "impala", "ape-x", "seed-rl", "domain-random", "sim-to-real",
-        "vla", "reality-gap", "kaelbling", "shield", "risk",
+        "vla", "reality-gap", "kaelbling", "shield", "risk", "robotics",
     ),
     "LLM Post-Training and Preference Optimization": (
         "instructgpt", "dpo", "ipo", "kto", "orpo", "grpo", "deepseek", "rlaif",
         "constitutional", "rlvr", "tulu", "preference", "summarize", "spurious",
         "agentic", "search-r1", "mua-rl", "prm", "process-reward",
-        "test-time", "verify-step",
+        "test-time", "verify-step", "glm", "minimax", "qwen", "rft",
+        "introspection", "rubric", "consistrm",
     ),
     "Evaluation and Reproducibility": (
         "matters", "precipice", "rliable", "atari-eval", "reproducib",
-        "procgen",
+        "procgen", "memorization", "contamination",
     ),
     "Tooling and Engineering Practice": (
         "gymnasium", "stable-baselines", "cleanrl", "rllib", "trl", "verl",
-        "openrlhf", "reward-hacking", "specification-gaming",
+        "openrlhf", "reward-hacking", "specification-gaming", "vime", "miles",
+        "alignment", "specbench", "ai-control",
     ),
 }
 

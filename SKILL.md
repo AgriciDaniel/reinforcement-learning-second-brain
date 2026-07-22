@@ -1,10 +1,12 @@
 ---
 name: reinforcement-learning-brain
-description: >
-  Scaffold and operate Reinforcement Learning Brain, a source-cited Obsidian brain for reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices.
-  Use when the user says "reinforcement-learning-brain", "Reinforcement Learning Brain", "create a reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices brain",
-  "import sources", "synthesize plan", "render report", or wants a persistent
-  vault-backed operating system for reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices.
+description: >-
+  Scaffold and operate Reinforcement Learning Brain, a source-cited Obsidian brain for
+  reinforcement learning, covering fundamentals, deep RL, RLHF/RLAIF and preference
+  optimization, evaluation, tooling, and applied best practices.
+  Use when the user says "reinforcement-learning-brain", "Reinforcement Learning Brain", "create a reinforcement learning brain",
+  "import sources", "synthesize plan", "render report", or wants a persistent vault-backed
+  operating system for reinforcement learning work.
 argument-hint: "new | ingest | synthesize | report | visuals | lint | next"
 license: Custom license
 ---

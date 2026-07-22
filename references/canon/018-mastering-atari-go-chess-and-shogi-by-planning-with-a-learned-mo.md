@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "018. Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -42,7 +42,7 @@ Ledger: 018 | source: Mastering Atari, Go, Chess and Shogi by Planning with a Le
 
 ## Source
 
-Source: [Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model](https://arxiv.org/abs/1911.08265); type primary; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model](https://arxiv.org/abs/1911.08265); type primary; retrieved 2026-07-22; refresh_due 2027-07-31.
 
 ## Brain Hooks
 

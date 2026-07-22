@@ -1,12 +1,12 @@
 ---
 type: "log"
 title: "Log"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/log"
   - "#confidence/practitioner"
 confidence: "practitioner"
@@ -45,5 +45,6 @@ source_urls: []
 Related: [[Hot]] | [[Index]] | [[Dashboard]]
 
 - 2026-07-22 - Reinforcement Learning Brain scaffolded.
+- 2026-07-22 - Research refresh: source ledger grew from 70 to 120 verified sources, refresh dates staggered into volatility tiers, ten topic dossiers updated, and the concept [[RL for computer-use and tool-use agents]] added. Claim ledger extended to C019 with C006 and C007 revised on independent 2026 evidence.
 - 2026-07-22 - Ingested source [[sample-source]] from `.raw/sources/sample-source.md`.
-- 2026-07-22 - Synthesized source-cited starter deliverables. Folded 70 source-ledger canon entries. Folded 9 adapter manifest entries.
+- 2026-07-22 - Synthesized source-cited starter deliverables. Folded 120 source-ledger canon entries. Folded 9 adapter manifest entries.

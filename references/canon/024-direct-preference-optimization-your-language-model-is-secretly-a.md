@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "024. Direct Preference Optimization Your Language Model is Secretly a Reward Model"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -42,7 +42,7 @@ Ledger: 024 | source: Direct Preference Optimization Your Language Model is Secr
 
 ## Source
 
-Source: [Direct Preference Optimization Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290); type primary; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [Direct Preference Optimization Your Language Model is Secretly a Reward Model](https://arxiv.org/abs/2305.18290); type primary; retrieved 2026-07-22; refresh_due 2027-08-03.
 
 ## Brain Hooks
 

@@ -1,8 +1,8 @@
 {
   "version": 1,
   "status": "researched",
-  "domain": "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices",
-  "refresh_cadence": "monthly for fast-moving sources (LLM post-training, libraries); before every release for canonical claims",
+  "domain": "reinforcement learning",
+  "refresh_cadence": "tiered: 30d live library docs, 90d churn-prone official and vendor pages, 180d fast-moving primary papers (2024+), 365d settled and canonical sources; due dates staggered inside each tier",
   "rules": {
     "researched_requires": [
       "at least two captured sources for fast-moving or high-stakes domains",
@@ -31,7 +31,7 @@
       "source_type": "official",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-25",
       "supports_claims": [
         "mdp-value-iteration-foundations",
         "td-learning-vs-monte-carlo",
@@ -52,7 +52,7 @@
       "source_type": "official",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2026-10-30",
       "supports_claims": [
         "policy-gradient-derivation-walkthrough",
         "algorithm-family-taxonomy"
@@ -71,7 +71,7 @@
       "source_type": "official",
       "confidence": "practitioner",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2026-10-27",
       "supports_claims": [
         "hands-on-drl-training-workflow",
         "unit-based-rl-learning-path"
@@ -90,7 +90,7 @@
       "source_type": "official",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-22",
       "supports_claims": [
         "bellman-equation-lecture-treatment",
         "model-free-prediction-and-control"
@@ -109,7 +109,7 @@
       "source_type": "official",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2026-10-24",
       "supports_claims": [
         "graduate-level-drl-syllabus",
         "offline-rl-and-model-based-lectures"
@@ -128,7 +128,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-08-04",
       "supports_claims": [
         "dqn-experience-replay",
         "dqn-pixels-to-q-values"
@@ -147,7 +147,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-22",
       "supports_claims": [
         "dqn-target-network-stabilization",
         "human-level-atari-benchmark"
@@ -166,7 +166,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-22",
       "supports_claims": [
         "rainbow-dqn-extension-ablations",
         "distributional-and-prioritized-replay-gains"
@@ -185,7 +185,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-24",
       "supports_claims": [
         "policy-gradient-theorem-statement",
         "reinforce-baseline-variance-reduction"
@@ -204,7 +204,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-22",
       "supports_claims": [
         "a3c-asynchronous-actor-critic",
         "parallel-actors-replace-replay"
@@ -223,7 +223,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-25",
       "supports_claims": [
         "gae-lambda-bias-variance-tradeoff",
         "advantage-estimation-for-policy-gradients"
@@ -242,7 +242,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-31",
       "supports_claims": [
         "trpo-kl-constrained-updates",
         "monotonic-improvement-guarantee"
@@ -261,7 +261,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-08-02",
       "supports_claims": [
         "ppo-clipping-mechanism",
         "ppo-vs-trpo-simplicity"
@@ -280,7 +280,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-29",
       "supports_claims": [
         "ddpg-deterministic-policy-gradient",
         "continuous-action-off-policy-control"
@@ -299,7 +299,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-30",
       "supports_claims": [
         "td3-twin-critics-clipped-double-q",
         "delayed-policy-updates-target-smoothing"
@@ -318,7 +318,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-26",
       "supports_claims": [
         "sac-maximum-entropy-objective",
         "sac-sample-efficiency-continuous-control"
@@ -337,7 +337,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-23",
       "supports_claims": [
         "alphazero-self-play-mcts",
         "general-game-mastery-without-domain-knowledge"
@@ -356,7 +356,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-31",
       "supports_claims": [
         "muzero-learned-dynamics-planning",
         "model-based-search-without-rules"
@@ -375,7 +375,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-29",
       "supports_claims": [
         "mbpo-short-model-rollouts",
         "dyna-style-model-usage-tradeoffs"
@@ -394,7 +394,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-28",
       "supports_claims": [
         "cql-conservative-value-lower-bound",
         "offline-rl-distribution-shift-mitigation"
@@ -413,7 +413,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-25",
       "supports_claims": [
         "rnd-prediction-error-exploration-bonus",
         "hard-exploration-montezuma-progress"
@@ -432,7 +432,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-26",
       "supports_claims": [
         "gail-adversarial-imitation-objective",
         "imitation-without-reward-recovery"
@@ -451,7 +451,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-28",
       "supports_claims": [
         "rlhf-three-stage-pipeline",
         "small-aligned-model-beats-larger-base"
@@ -470,7 +470,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-08-03",
       "supports_claims": [
         "dpo-closed-form-preference-objective",
         "dpo-vs-rlhf-tradeoffs"
@@ -489,7 +489,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-01-24",
       "supports_claims": [
         "kto-binary-signal-alignment",
         "prospect-theory-loss-design"
@@ -508,7 +508,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-01-28",
       "supports_claims": [
         "orpo-reference-free-alignment",
         "single-stage-sft-plus-preference"
@@ -527,7 +527,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-01-20",
       "supports_claims": [
         "grpo-group-relative-baseline",
         "critic-free-policy-optimization"
@@ -546,7 +546,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-01-28",
       "supports_claims": [
         "pure-rl-reasoning-emergence",
         "r1-zero-no-sft-cold-start"
@@ -565,7 +565,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-26",
       "supports_claims": [
         "constitutional-ai-self-critique-loop",
         "rl-from-ai-feedback-preferences"
@@ -584,7 +584,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-24",
       "supports_claims": [
         "rlaif-matches-rlhf-quality",
         "ai-preference-labeling-scalability"
@@ -603,7 +603,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-01-27",
       "supports_claims": [
         "rlvr-verifiable-rewards-definition",
         "open-post-training-recipe"
@@ -622,7 +622,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-01-23",
       "supports_claims": [
         "rlvr-spurious-reward-gains-some-models",
         "rlvr-signal-validation-caveats"
@@ -641,7 +641,7 @@
       "source_type": "official",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2026-08-22",
       "supports_claims": [
         "gymnasium-env-api-standard",
         "gym-to-gymnasium-migration"
@@ -660,7 +660,7 @@
       "source_type": "official",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2026-08-25",
       "supports_claims": [
         "sb3-reliable-algorithm-implementations",
         "sb3-supported-algorithm-matrix"
@@ -698,7 +698,7 @@
       "source_type": "official",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2026-08-24",
       "supports_claims": [
         "rllib-scalable-distributed-rl",
         "production-rl-workloads"
@@ -717,7 +717,7 @@
       "source_type": "official",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2026-08-26",
       "supports_claims": [
         "trl-trainer-taxonomy",
         "grpo-dpo-kto-trainer-availability"
@@ -736,7 +736,7 @@
       "source_type": "official",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2026-08-27",
       "supports_claims": [
         "verl-hybrid-controller-programming-model",
         "llm-rl-post-training-infra"
@@ -755,7 +755,7 @@
       "source_type": "vendor",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2026-08-23",
       "supports_claims": [
         "openrlhf-ray-vllm-distributed-rlhf",
         "ppo-reinforce-plus-plus-grpo-support"
@@ -774,7 +774,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-30",
       "supports_claims": [
         "drl-reproducibility-seed-variance",
         "hyperparameter-sensitivity-reporting"
@@ -793,7 +793,7 @@
       "source_type": "primary",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-29",
       "supports_claims": [
         "interquartile-mean-evaluation",
         "few-run-uncertainty-reporting"
@@ -812,7 +812,7 @@
       "source_type": "vendor",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-31",
       "supports_claims": [
         "specification-gaming-examples",
         "reward-misspecification-failure-modes"
@@ -831,7 +831,7 @@
       "source_type": "vendor",
       "confidence": "evidence-based",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2026-10-23",
       "supports_claims": [
         "reward-hacking-generalizes-to-misalignment",
         "inoculation-prompting-mitigation"
@@ -851,7 +851,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-01-22",
       "claims": [
         "agentic-rl-formulation"
       ],
@@ -869,7 +869,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-01-18",
       "claims": [
         "rl-tool-use-training"
       ],
@@ -886,7 +886,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-01-27",
       "claims": [
         "multi-turn-agent-rl"
       ],
@@ -904,7 +904,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-01-22",
       "claims": [
         "prm-vs-orm"
       ],
@@ -921,7 +921,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-01-18",
       "claims": [
         "prm-vs-orm"
       ],
@@ -938,7 +938,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-08-01",
       "claims": [
         "dreamer-latent-imagination"
       ],
@@ -955,7 +955,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-23",
       "claims": [
         "dreamer-latent-imagination"
       ],
@@ -973,7 +973,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-01-21",
       "claims": [
         "test-time-compute-scaling"
       ],
@@ -990,7 +990,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-01-25",
       "claims": [
         "test-time-compute-scaling"
       ],
@@ -1007,7 +1007,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-24",
       "claims": [
         "pomdp-belief-states"
       ],
@@ -1022,7 +1022,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-23",
       "claims": [
         "meta-rl-adaptation"
       ],
@@ -1039,7 +1039,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-30",
       "claims": [
         "meta-rl-adaptation"
       ],
@@ -1056,7 +1056,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-08-03",
       "claims": [
         "procgen-generalization"
       ],
@@ -1073,7 +1073,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-27",
       "claims": [
         "cmdp-constrained-optimization"
       ],
@@ -1088,7 +1088,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-08-01",
       "claims": [
         "safe-rl-tooling"
       ],
@@ -1105,7 +1105,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-27",
       "claims": [
         "impala-vtrace-off-policy"
       ],
@@ -1122,7 +1122,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-24",
       "claims": [
         "distributed-rl-throughput"
       ],
@@ -1139,7 +1139,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-28",
       "claims": [
         "distributed-rl-throughput"
       ],
@@ -1156,7 +1156,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-08-02",
       "claims": [
         "sim-to-real-gap"
       ],
@@ -1171,7 +1171,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-01-19",
       "claims": [
         "vla-rl-scaling"
       ],
@@ -1189,7 +1189,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-01-24",
       "claims": [
         "sim-to-real-gap"
       ],
@@ -1206,7 +1206,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-25",
       "claims": [
         "distributional-return-learning"
       ],
@@ -1221,7 +1221,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-08-04",
       "claims": [
         "distributional-return-learning"
       ],
@@ -1229,14 +1229,14 @@
     },
     {
       "id": "genie-3-blog-2025",
-      "url": "https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/",
+      "url": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/",
       "title": "Genie 3: A new frontier for world models",
       "date": "2025-08-05",
       "source_type": "vendor",
       "confidence": "practitioner",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2026-10-26",
       "claims": [
         "interactive-world-generation"
       ],
@@ -1253,7 +1253,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-27",
       "claims": [
         "cmdp-constrained-optimization"
       ],
@@ -1270,7 +1270,7 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-08-01",
       "claims": [
         "distributional-return-learning"
       ],
@@ -1285,14 +1285,884 @@
       "confidence": "evidence-based",
       "retrieved": "2026-07-22",
       "last_verified": "2026-07-22",
-      "refresh_due": "2026-08-21",
+      "refresh_due": "2027-07-23",
       "claims": [
         "pomdp-belief-states"
       ],
       "supports_claims": [
         "meta-rl-adaptation"
       ]
+    },
+    {
+      "id": "vime-vllm",
+      "url": "https://vllm-project.github.io/2026/06/09/announcing-vime.html",
+      "title": "vime: A Simple, Stable, and Efficient RL Framework for LLMs",
+      "date": "2026-06-09",
+      "source_type": "official",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-29",
+      "supports_claims": [
+        "vime-vllm-megatron-rl-pipeline",
+        "vime-grpo-ppo-example-coverage"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "vime-vllm-megatron-rl-pipeline",
+        "vime-grpo-ppo-example-coverage"
+      ]
+    },
+    {
+      "id": "miles-radixark",
+      "url": "https://pytorch.org/blog/miles-a-pytorch-native-stack-for-large-scale-llm-rl-post-training/",
+      "title": "Miles: A PyTorch-Native Stack for Large-Scale LLM RL Post-Training",
+      "date": "2026-06-30",
+      "source_type": "vendor",
+      "confidence": "practitioner",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-10-29",
+      "supports_claims": [
+        "miles-llm-rl-post-training-framework",
+        "miles-sglang-megatron-ray-stack"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "miles-llm-rl-post-training-framework",
+        "miles-sglang-megatron-ray-stack"
+      ]
+    },
+    {
+      "id": "dapo-grpo-2025",
+      "url": "https://arxiv.org/abs/2503.14476",
+      "title": "DAPO: An Open-Source LLM Reinforcement Learning System at Scale",
+      "date": "2025-03-18",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-27",
+      "supports_claims": [
+        "dapo-decoupled-clip-dynamic-sampling"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "dapo-decoupled-clip-dynamic-sampling"
+      ]
+    },
+    {
+      "id": "dr-grpo-2025",
+      "url": "https://arxiv.org/abs/2503.20783",
+      "title": "Understanding R1-Zero-Like Training: A Critical Perspective",
+      "date": "2025-03-26",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-30",
+      "supports_claims": [
+        "dr-grpo-unbiased-optimization-claim",
+        "minimalist-rlvr-recipe-report"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "dr-grpo-unbiased-optimization-claim",
+        "minimalist-rlvr-recipe-report"
+      ]
+    },
+    {
+      "id": "gspo-grpo-2025",
+      "url": "https://arxiv.org/abs/2507.18071",
+      "title": "Group Sequence Policy Optimization",
+      "date": "2025-07-24",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-23",
+      "supports_claims": [
+        "gspo-sequence-level-importance-ratio"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "gspo-sequence-level-importance-ratio"
+      ]
+    },
+    {
+      "id": "ep-grpo-2026",
+      "url": "https://arxiv.org/abs/2605.04960",
+      "title": "EP-GRPO: Entropy-Progress Aligned Group Relative Policy Optimization with Implicit Process Guidance",
+      "date": "2026-05-06",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-18",
+      "supports_claims": [
+        "ep-grpo-entropy-guided-token-feedback",
+        "ep-grpo-zero-variance-gradient-mitigation"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "ep-grpo-entropy-guided-token-feedback",
+        "ep-grpo-zero-variance-gradient-mitigation"
+      ]
+    },
+    {
+      "id": "skpo-grpo-single-stream-2026",
+      "url": "https://arxiv.org/abs/2604.08690",
+      "title": "Skip-Connected Policy Optimization for Implicit Advantage",
+      "date": "2026-04-09",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-20",
+      "supports_claims": [
+        "skpo-single-stream-upstream-grpo-downstream"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "skpo-single-stream-upstream-grpo-downstream"
+      ]
+    },
+    {
+      "id": "sd-grpo-2026",
+      "url": "https://arxiv.org/abs/2606.09871",
+      "title": "SD-GRPO: Verifiable Segment Decomposition for Long-Form Vision-Language Generation",
+      "date": "2026-06-02",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-31",
+      "supports_claims": [
+        "sd-grpo-segment-level-verifiable-credit"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "sd-grpo-segment-level-verifiable-credit"
+      ]
+    },
+    {
+      "id": "grpo-credit-assignment-foundations-2026",
+      "url": "https://arxiv.org/abs/2606.29238",
+      "title": "On the Policy Gradient Foundations of Group Relative Policy Optimization: Credit Assignment, Gradient Sparsity, and Rank Collapse",
+      "date": "2026-06-28",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-22",
+      "supports_claims": [
+        "grpo-output-reward-token-credit-assignment"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "grpo-output-reward-token-credit-assignment"
+      ]
+    },
+    {
+      "id": "grpo-group-standard-deviation-identity-2026",
+      "url": "https://arxiv.org/abs/2607.00152",
+      "title": "GRPO, Dr. GRPO, and DAPO Are Three Operations on One Number: The Group-Standard-Deviation Identity",
+      "date": "2026-06-30",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-21",
+      "supports_claims": [
+        "grpo-drgrpo-dapo-standard-deviation-identity"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "grpo-drgrpo-dapo-standard-deviation-identity"
+      ]
+    },
+    {
+      "id": "sao-grpo-async-2026",
+      "url": "https://arxiv.org/abs/2607.07508",
+      "title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
+      "date": "2026-07-08",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-30",
+      "supports_claims": [
+        "sao-single-rollout-asynchronous-off-policy-grpo"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "sao-single-rollout-asynchronous-off-policy-grpo"
+      ]
+    },
+    {
+      "id": "deepseek-transparency-center",
+      "url": "https://www.deepseek.com/en/transparency/",
+      "title": "Transparency Center",
+      "date": "2026-04-24",
+      "source_type": "official",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-29",
+      "supports_claims": [
+        "deepseek-catalog-lists-no-r2-release"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "deepseek-catalog-lists-no-r2-release"
+      ]
+    },
+    {
+      "id": "zai-glm-5-1-release-notes",
+      "url": "https://docs.z.ai/release-notes/new-released",
+      "title": "New Released - GLM-5.1",
+      "date": "2026-04-07",
+      "source_type": "official",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-19",
+      "supports_claims": [
+        "glm-5-1-multi-turn-sft-plus-rl-recipe"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "glm-5-1-multi-turn-sft-plus-rl-recipe"
+      ]
+    },
+    {
+      "id": "zai-glm-5-1-model-card",
+      "url": "https://huggingface.co/zai-org/GLM-5.1",
+      "title": "zai-org/GLM-5.1 model card",
+      "date": "2026-04-07",
+      "source_type": "official",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-18",
+      "supports_claims": [
+        "glm-5-1-open-weights-mit-license"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "glm-5-1-open-weights-mit-license"
+      ]
+    },
+    {
+      "id": "minimax-m3-release",
+      "url": "https://www.minimax.io/blog/minimax-m3",
+      "title": "MiniMax M3: Frontier Coding, 1M Context, Native Multimodality",
+      "date": "2026-06-01",
+      "source_type": "official",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-25",
+      "supports_claims": [
+        "minimax-m3-open-weight-release"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "minimax-m3-open-weight-release"
+      ]
+    },
+    {
+      "id": "minimax-maxproof",
+      "url": "https://arxiv.org/abs/2606.13473",
+      "title": "MaxProof: Scaling Mathematical Proof with Generative-Verifier RL and Population-Level Test-Time Scaling",
+      "date": "2026-06-11",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-26",
+      "supports_claims": [
+        "maxproof-generative-verifier-rl-for-proofs"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "maxproof-generative-verifier-rl-for-proofs"
+      ]
+    },
+    {
+      "id": "qwen-agentworld-model-card",
+      "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+      "title": "Qwen/Qwen-AgentWorld-35B-A3B model card",
+      "date": "2026-06-23",
+      "source_type": "official",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-20",
+      "supports_claims": [
+        "qwen-agentworld-gspo-rl-post-training"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "qwen-agentworld-gspo-rl-post-training"
+      ]
+    },
+    {
+      "id": "qwen-agentworld-report",
+      "url": "https://arxiv.org/abs/2606.24597",
+      "title": "Qwen-AgentWorld: Language World Models for General Agents",
+      "date": "2026-06-23",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-21",
+      "supports_claims": [
+        "qwen-agentworld-hybrid-rubric-rule-rewards"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "qwen-agentworld-hybrid-rubric-rule-rewards"
+      ]
+    },
+    {
+      "id": "meta-ra-rft",
+      "url": "https://ai.meta.com/research/publications/learning-to-reason-by-analogy-via-retrieval-augmented-reinforcement-fine-tuning/",
+      "title": "Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning",
+      "date": "2026-07-17",
+      "source_type": "vendor",
+      "confidence": "practitioner",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-10-28",
+      "supports_claims": [
+        "ra-rft-retrieval-augmented-reinforcement-fine-tuning"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "ra-rft-retrieval-augmented-reinforcement-fine-tuning"
+      ]
+    },
+    {
+      "id": "anthropic-claude-plays-robotics",
+      "url": "https://www.anthropic.com/research/claude-plays-robotics",
+      "title": "Claude plays robotics",
+      "date": "2026-07-09",
+      "source_type": "vendor",
+      "confidence": "practitioner",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-10-21",
+      "supports_claims": [
+        "claude-robotics-rl-controller-training-evaluation"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "claude-robotics-rl-controller-training-evaluation"
+      ]
+    },
+    {
+      "id": "anthropic-introspection-adapters",
+      "url": "https://alignment.anthropic.com/2026/introspection-adapters/",
+      "title": "Introspection Adapters: Training LLMs to Report Their Learned Behaviors",
+      "date": "2026-04-28",
+      "source_type": "vendor",
+      "confidence": "practitioner",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-10-22",
+      "supports_claims": [
+        "introspection-adapters-llm-judge-dpo-refinement"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "introspection-adapters-llm-judge-dpo-refinement"
+      ]
+    },
+    {
+      "id": "agentic-cua-autonomous-evaluation-2026",
+      "url": "https://arxiv.org/abs/2606.24515",
+      "title": "Reinforcement Learning for Computer-Use Agents with Autonomous Evaluation",
+      "date": "2026-06-23",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-19",
+      "supports_claims": [
+        "c201-cua-autonomous-terminal-evaluation"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "c201-cua-autonomous-terminal-evaluation"
+      ]
+    },
+    {
+      "id": "agentic-compactionrl-swe-terminal-2026",
+      "url": "https://arxiv.org/abs/2607.05378",
+      "title": "CompactionRL: Reinforcement Learning with Context Compaction for Long-Horizon Agents",
+      "date": "2026-07-06",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-18",
+      "supports_claims": [
+        "c202-long-horizon-swe-terminal-context-compaction"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "c202-long-horizon-swe-terminal-context-compaction"
+      ]
+    },
+    {
+      "id": "agentic-rspo-multiturn-2026",
+      "url": "https://arxiv.org/abs/2607.04713",
+      "title": "RSPO: Reward-Swap Policy Optimization for Multi-Turn LLM Agents",
+      "date": "2026-07-06",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-23",
+      "supports_claims": [
+        "c203-multiturn-process-outcome-reward-swap"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "c203-multiturn-process-outcome-reward-swap"
+      ]
+    },
+    {
+      "id": "agentic-trl-openenv-multienv-grpo-2026",
+      "url": "https://huggingface.co/docs/trl/v1.6.0/en/openenv",
+      "title": "TRL v1.6.0 OpenEnv Integration for Training LLMs with Environments",
+      "date": "2026-06-11",
+      "source_type": "official",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-24",
+      "supports_claims": [
+        "c204-trl-stateful-multiturn-and-multienvironment-grpo"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "c204-trl-stateful-multiturn-and-multienvironment-grpo"
+      ]
+    },
+    {
+      "id": "agentic-rl-review-2026",
+      "url": "https://arxiv.org/abs/2604.27859",
+      "title": "Rethinking Agentic Reinforcement Learning In Large Language Models",
+      "date": "2026-04-30",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-21",
+      "supports_claims": [
+        "c205-agentic-rl-review-scope-check"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "c205-agentic-rl-review-scope-check"
+      ]
+    },
+    {
+      "id": "agentic-landscape-survey-v5-2026",
+      "url": "https://arxiv.org/abs/2509.02547",
+      "title": "The Landscape of Agentic Reinforcement Learning for LLMs: A Survey, arXiv v5",
+      "date": "2026-04-17",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-20",
+      "supports_claims": [
+        "c206-agentic-rl-landscape-survey-refresh"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "c206-agentic-rl-landscape-survey-refresh"
+      ]
+    },
+    {
+      "id": "rubric-rrd-reward-2026",
+      "url": "https://arxiv.org/abs/2602.05125",
+      "title": "Rethinking Rubric Generation for Improving LLM Judge and Reward Modeling for Open-ended Tasks",
+      "date": "2026-02-04",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-29",
+      "supports_claims": [
+        "rrd-recursively-refines-rubrics-for-llm-judging-and-rft"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "rrd-recursively-refines-rubrics-for-llm-judging-and-rft"
+      ]
+    },
+    {
+      "id": "rubric-rlr3-verifier-2026",
+      "url": "https://arxiv.org/abs/2605.30244",
+      "title": "Reinforcement Learning with Robust Rubric Rewards",
+      "date": "2026-05-28",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-28",
+      "supports_claims": [
+        "rlr3-criterion-level-rubric-verification-for-vision-language-rl"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "rlr3-criterion-level-rubric-verification-for-vision-language-rl"
+      ]
+    },
+    {
+      "id": "reward-consistrm-2026",
+      "url": "https://arxiv.org/abs/2604.07484",
+      "title": "ConsistRM: Improving Generative Reward Models via Consistency-Aware Self-Training",
+      "date": "2026-04-08",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-26",
+      "supports_claims": [
+        "consistrm-self-trains-generative-reward-models-with-consistency-aware-rewards"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "consistrm-self-trains-generative-reward-models-with-consistency-aware-rewards"
+      ]
+    },
+    {
+      "id": "prm-rm-nlhf-reward-2026",
+      "url": "https://arxiv.org/abs/2601.07349",
+      "title": "Reward Modeling from Natural Language Human Feedback",
+      "date": "2026-01-12",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-31",
+      "supports_claims": [
+        "rm-nlhf-uses-human-critiques-as-process-reward-for-generative-reward-models"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "rm-nlhf-uses-human-critiques-as-process-reward-for-generative-reward-models"
+      ]
+    },
+    {
+      "id": "verifier-agentv-rl-2026",
+      "url": "https://arxiv.org/abs/2604.16004",
+      "title": "AgentV-RL: Scaling Reward Modeling with Agentic Verifier",
+      "date": "2026-04-17",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-28",
+      "supports_claims": [
+        "agentv-rl-scales-tool-augmented-bidirectional-verification-at-test-time"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "agentv-rl-scales-tool-augmented-bidirectional-verification-at-test-time"
+      ]
+    },
+    {
+      "id": "prm-thinking-images-verifier-benchmark-2026",
+      "url": "https://arxiv.org/abs/2602.08346",
+      "title": "What, Whether and How? Unveiling Process Reward Models for Thinking with Images Reasoning",
+      "date": "2026-02-09",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-19",
+      "supports_claims": [
+        "thinking-images-benchmark-evaluates-prms-on-multimodal-step-errors"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "thinking-images-benchmark-evaluates-prms-on-multimodal-step-errors"
+      ]
+    },
+    {
+      "id": "world-model-waymo-2026",
+      "url": "https://waymo.com/blog/2026/02/the-waymo-world-model-a-new-frontier-for-autonomous-driving-simulation/",
+      "title": "The Waymo World Model: A New Frontier For Autonomous Driving Simulation",
+      "date": "2026-02-06",
+      "source_type": "vendor",
+      "confidence": "practitioner",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-10-31",
+      "supports_claims": [
+        "waymo-world-model-autonomous-driving-simulation"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "waymo-world-model-autonomous-driving-simulation"
+      ]
+    },
+    {
+      "id": "dreamer-world-model-cdp-2026",
+      "url": "https://arxiv.org/abs/2603.07083",
+      "title": "Dreamer-CDP: Improving Reconstruction-free World Models Via Continuous Deterministic Representation Prediction",
+      "date": "2026-03-07",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-31",
+      "supports_claims": [
+        "dreamer-cdp-reconstruction-free-latent-prediction"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "dreamer-cdp-reconstruction-free-latent-prediction"
+      ]
+    },
+    {
+      "id": "world-model-behavior-consistency-2026",
+      "url": "https://arxiv.org/abs/2604.13824",
+      "title": "Beyond State Consistency: Behavior Consistency in Text-Based World Models",
+      "date": "2026-04-15",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-30",
+      "supports_claims": [
+        "behavior-consistency-reward-for-text-agent-world-models"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "behavior-consistency-reward-for-text-agent-world-models"
+      ]
+    },
+    {
+      "id": "test-time-adaptive-allocation-2026",
+      "url": "https://arxiv.org/abs/2602.01070",
+      "title": "What If We Allocate Test-Time Compute Adaptively?",
+      "date": "2026-02-01",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-24",
+      "supports_claims": [
+        "prm-guided-adaptive-test-time-compute-allocation"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "prm-guided-adaptive-test-time-compute-allocation"
+      ]
+    },
+    {
+      "id": "test-time-compute-aligned-training-2026",
+      "url": "https://arxiv.org/abs/2604.24957",
+      "title": "Compute Aligned Training: Optimizing for Test Time Inference",
+      "date": "2026-04-27",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-25",
+      "supports_claims": [
+        "test-time-compute-aligned-sft-and-rl-training-objectives"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "test-time-compute-aligned-sft-and-rl-training-objectives"
+      ]
+    },
+    {
+      "id": "test-time-post-training-scaling-law-2026",
+      "url": "https://arxiv.org/abs/2605.10716",
+      "title": "What should post-training optimize? A test-time scaling law perspective",
+      "date": "2026-05-11",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-26",
+      "supports_claims": [
+        "best-of-n-oriented-post-training-under-budget-mismatch"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "best-of-n-oriented-post-training-under-budget-mismatch"
+      ]
+    },
+    {
+      "id": "conditional-misalignment-2026",
+      "url": "https://arxiv.org/abs/2604.25891",
+      "title": "Conditional misalignment: common interventions can hide emergent misalignment behind contextual triggers",
+      "date": "2026-04-28",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-26",
+      "supports_claims": [
+        "inoculation-prompting-can-leave-conditional-misalignment",
+        "standard-safety-evaluations-can-miss-context-triggered-misalignment"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "inoculation-prompting-can-leave-conditional-misalignment",
+        "standard-safety-evaluations-can-miss-context-triggered-misalignment"
+      ]
+    },
+    {
+      "id": "specbench-2026",
+      "url": "https://arxiv.org/abs/2605.21384",
+      "title": "SpecBench: Measuring Reward Hacking in Long-Horizon Coding Agents",
+      "date": "2026-05-20",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-22",
+      "supports_claims": [
+        "visible-to-held-out-test-gap-measures-coding-agent-reward-hacking",
+        "specbench-long-horizon-coding-agent-evaluation"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "visible-to-held-out-test-gap-measures-coding-agent-reward-hacking",
+        "specbench-long-horizon-coding-agent-evaluation"
+      ]
+    },
+    {
+      "id": "anthropic-automated-alignment-researchers-2026",
+      "url": "https://www.anthropic.com/research/automated-alignment-researchers",
+      "title": "Automated Alignment Researchers: Using large language models to scale scalable oversight",
+      "date": "2026-04-14",
+      "source_type": "vendor",
+      "confidence": "practitioner",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-10-20",
+      "supports_claims": [
+        "automated-alignment-researchers-can-reward-hack-a-weak-to-strong-evaluation-harness",
+        "human-review-and-untamperable-evaluations-are-needed-for-automated-research"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "automated-alignment-researchers-can-reward-hack-a-weak-to-strong-evaluation-harness",
+        "human-review-and-untamperable-evaluations-are-needed-for-automated-research"
+      ]
+    },
+    {
+      "id": "deepmind-ai-control-roadmap-2026",
+      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "title": "Securing the future of AI agents",
+      "date": "2026-06-18",
+      "source_type": "vendor",
+      "confidence": "practitioner",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2026-10-25",
+      "supports_claims": [
+        "ai-control-roadmap-treats-agents-as-potentially-misaligned",
+        "agent-control-uses-monitoring-prevention-response-and-measurable-coverage-recall-time-to-response"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "ai-control-roadmap-treats-agents-as-potentially-misaligned",
+        "agent-control-uses-monitoring-prevention-response-and-measurable-coverage-recall-time-to-response"
+      ]
+    },
+    {
+      "id": "reasoning-or-memorization-2026",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40687",
+      "title": "Reasoning or Memorization? Unreliable Results of Reinforcement Learning Due to Data Contamination",
+      "date": "2026-03-14",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-25",
+      "supports_claims": [
+        "spurious-reward-rlvr-replicates-on-math500-for-qwen-but-not-llama",
+        "clean-randomcalculation-evaluation-shows-no-reliable-spurious-reward-improvement"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "spurious-reward-rlvr-replicates-on-math500-for-qwen-but-not-llama",
+        "clean-randomcalculation-evaluation-shows-no-reliable-spurious-reward-improvement"
+      ]
+    },
+    {
+      "id": "rl-posttraining-contamination-detection-2026",
+      "url": "https://iclr.cc/virtual/2026/poster/10010649",
+      "title": "Detecting Data Contamination from Reinforcement Learning Post-training for Large Language Models",
+      "date": "2026-04-24",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-27",
+      "supports_claims": [
+        "self-critique-detects-contamination-after-rl-post-training",
+        "rl-mia-benchmark-simulates-rl-phase-contamination"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "self-critique-detects-contamination-after-rl-post-training",
+        "rl-mia-benchmark-simulates-rl-phase-contamination"
+      ]
+    },
+    {
+      "id": "pld-vla-residual-rl-2026",
+      "url": "https://rpl.cs.utexas.edu/publications/2026/04/01/xiao-iclr26-pld/",
+      "title": "Self-Improving Vision-Language-Action Models with Data Generation via Residual RL",
+      "date": "2026-04-01",
+      "source_type": "official",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-30",
+      "supports_claims": [
+        "pld-residual-rl-data-generation-distillation"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "pld-residual-rl-data-generation-distillation"
+      ]
+    },
+    {
+      "id": "expo-ft-vla-rl-2026",
+      "url": "https://arxiv.org/abs/2605.25477",
+      "title": "EXPO-FT: Sample-Efficient Reinforcement Learning Finetuning for Vision-Language-Action Models",
+      "date": "2026-05-25",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-19",
+      "supports_claims": [
+        "expo-ft-online-rl-vla-fine-tuning"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "expo-ft-online-rl-vla-fine-tuning"
+      ]
+    },
+    {
+      "id": "pair-vla-rl-finetuning-2026",
+      "url": "https://arxiv.org/abs/2605.13105",
+      "title": "What to Ignore, What to React: Visually Robust RL Fine-Tuning of VLA Models",
+      "date": "2026-05-13",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-29",
+      "supports_claims": [
+        "pair-vla-visual-invariance-sensitivity-ppo"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "pair-vla-visual-invariance-sensitivity-ppo"
+      ]
+    },
+    {
+      "id": "z1-vla-rl-2026",
+      "url": "https://arxiv.org/abs/2606.31846",
+      "title": "Z-1: Efficient Reinforcement Learning for Vision-Language-Action Models",
+      "date": "2026-06-30",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-31",
+      "supports_claims": [
+        "z1-taskwise-grpo-vla-robocasa"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "z1-taskwise-grpo-vla-robocasa"
+      ]
+    },
+    {
+      "id": "rar-rubric-rewards-2025",
+      "url": "https://arxiv.org/abs/2507.17746",
+      "title": "Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains",
+      "date": "2025-07-23",
+      "source_type": "primary",
+      "confidence": "evidence-based",
+      "last_verified": "2026-07-22",
+      "refresh_due": "2027-01-23",
+      "supports_claims": [
+        "rar-rubric-rewards-beyond-verifiable-domains"
+      ],
+      "retrieved": "2026-07-22",
+      "claims": [
+        "rar-rubric-rewards-beyond-verifiable-domains"
+      ]
     }
   ],
-  "last_research_pass": "2026-07-22"
+  "last_research_pass": "2026-07-23"
 }

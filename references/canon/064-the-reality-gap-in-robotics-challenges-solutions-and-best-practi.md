@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "064. The Reality Gap in Robotics Challenges, Solutions, and Best Practices"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -41,7 +41,7 @@ Ledger: 064 | source: The Reality Gap in Robotics Challenges, Solutions, and Bes
 
 ## Source
 
-Source: [The Reality Gap in Robotics Challenges, Solutions, and Best Practices](https://arxiv.org/abs/2510.20808); type primary; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [The Reality Gap in Robotics Challenges, Solutions, and Best Practices](https://arxiv.org/abs/2510.20808); type primary; retrieved 2026-07-22; refresh_due 2027-01-24.
 
 ## Brain Hooks
 

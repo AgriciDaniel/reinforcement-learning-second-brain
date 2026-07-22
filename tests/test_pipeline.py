@@ -48,7 +48,7 @@ def main() -> int:
     audit = run(["scripts/audit_brain.py", "--json", "--report-only"])
     audit_result = json.loads(audit.stdout)
     market_ready = audit_result.get("market_ready") is True or audit_result.get("status") == "market-ready"
-    gated = subprocess.run([PY, "scripts/package_release.py", "--version", "0.1.0", "--release-type", "market-ready"], cwd=REPO, text=True, capture_output=True, check=False)
+    gated = subprocess.run([PY, "scripts/package_release.py", "--version", "1.1.0", "--release-type", "market-ready"], cwd=REPO, text=True, capture_output=True, check=False)
     if market_ready:
         if gated.returncode:
             print(gated.stdout)
@@ -60,7 +60,7 @@ def main() -> int:
     else:
         assert gated.returncode != 0
         assert "market-ready release blocked" in gated.stderr
-    run(["scripts/package_release.py", "--version", "0.1.0"])
+    run(["scripts/package_release.py", "--version", "1.1.0"])
     assert (REPO / "dist" / "RELEASE_MANIFEST.json").exists()
     with tempfile.TemporaryDirectory(prefix="reinforcement-learning-brain-install-") as tmp:
         env = {"REINFORCEMENT_LEARNING_BRAIN_INSTALL_HOME": tmp}

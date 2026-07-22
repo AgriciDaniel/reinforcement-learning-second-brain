@@ -31,4 +31,4 @@ jobs:
           python scripts/build_demo_vault.py
           git diff --exit-code -- examples/sample-vault
       - name: Release package and audit
-        run: python scripts/package_release.py --version 0.1.0
+        run: python scripts/package_release.py --version 1.1.0

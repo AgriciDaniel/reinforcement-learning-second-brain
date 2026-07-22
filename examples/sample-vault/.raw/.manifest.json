@@ -10,7 +10,7 @@
   "sources": [
     {
       "path": ".raw/sources/sample-source.md",
-      "sha256": "0d5d9ebd6898556e7818b57bcd606b7990321f7f20545f76699452a10dc4e279",
+      "sha256": "6990c1a1e34c9154c389a62ccd8367f08ca5cb2a630732e5cf9f786d113d5ea1",
       "retrieved": "2026-07-22",
       "source_type": "fixture"
     }

@@ -1,12 +1,12 @@
 ---
 type: "log"
 title: "Log"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
-created: "{{date}}"
-updated: "{{date}}"
+created: "2026-07-22"
+updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/log"
   - "#confidence/practitioner"
 confidence: "practitioner"
@@ -44,4 +44,5 @@ source_urls: []
 
 Related: [[Hot]] | [[Index]] | [[Dashboard]]
 
-- {{date}} - Reinforcement Learning Brain scaffolded.
+- 2026-07-22 - Reinforcement Learning Brain scaffolded.
+- 2026-07-22 - Research refresh: source ledger grew from 70 to 120 verified sources, refresh dates staggered into volatility tiers, ten topic dossiers updated, and the concept [[RL for computer-use and tool-use agents]] added. Claim ledger extended to C019 with C006 and C007 revised on independent 2026 evidence.

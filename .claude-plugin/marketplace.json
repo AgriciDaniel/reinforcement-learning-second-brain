@@ -5,14 +5,14 @@
   },
   "metadata": {
     "description": "Reinforcement Learning Brain template and skill layer",
-    "version": "0.1.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "reinforcement-learning-brain",
       "source": "./",
-      "description": "Obsidian brain for reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices.",
-      "version": "0.1.0",
+      "description": "Obsidian brain for reinforcement learning, covering fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices.",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Agrici"
       },

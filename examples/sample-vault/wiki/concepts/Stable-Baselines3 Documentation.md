@@ -1,12 +1,12 @@
 ---
 type: "concept"
 title: "Stable-Baselines3 Documentation"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/concept"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -40,7 +40,7 @@ source_urls:
 
 ## Source
 
-Source: [Stable-Baselines3 Documentation](https://stable-baselines3.readthedocs.io/en/master/); type official; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [Stable-Baselines3 Documentation](https://stable-baselines3.readthedocs.io/en/master/); type official; retrieved 2026-07-22; refresh_due 2026-08-25.
 
 
 

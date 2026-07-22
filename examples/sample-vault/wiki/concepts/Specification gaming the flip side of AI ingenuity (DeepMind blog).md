@@ -1,12 +1,12 @@
 ---
 type: "concept"
 title: "Specification gaming the flip side of AI ingenuity (DeepMind blog)"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/concept"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -40,7 +40,7 @@ source_urls:
 
 ## Source
 
-Source: [Specification gaming the flip side of AI ingenuity (DeepMind blog)](https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/); type vendor; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [Specification gaming the flip side of AI ingenuity (DeepMind blog)](https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/); type vendor; retrieved 2026-07-22; refresh_due 2027-07-31.
 
 
 

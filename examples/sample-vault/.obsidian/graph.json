@@ -7,7 +7,7 @@
   "showOrphans": true,
   "colorGroups": [
     {
-      "query": "tag:#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe",
+      "query": "tag:#domain/reinforcement-learning",
       "color": {
         "a": 1,
         "rgb": 743376

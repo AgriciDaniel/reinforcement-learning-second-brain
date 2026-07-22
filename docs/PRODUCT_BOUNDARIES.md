@@ -1,6 +1,6 @@
 # Product Boundaries
 
-Reinforcement Learning Brain is an advisory, read-only Obsidian brain for reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices.
+Reinforcement Learning Brain is an advisory, read-only Obsidian brain for reinforcement learning, covering fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices.
 
 ## It Does
 

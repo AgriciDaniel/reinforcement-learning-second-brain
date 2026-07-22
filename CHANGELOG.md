@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.1.0 - 2026-07-23
+
+- Research refresh: source ledger grew from 70 to 120 verified sources, adding the GRPO refinement lineage (DAPO, Dr. GRPO, GSPO) and the Apr-Jul 2026 wave, 2026 open-weight reasoning releases with documented RL recipes (GLM-5.1, MiniMax M3, Qwen-AgentWorld), agentic RL for computer-use and tool-use agents, rubric and generative reward models, contamination-audited evaluation, world-model and test-time-compute follow-ups, and 2026 VLA RL results. Every entry was verified against a live URL during the pass.
+- New topic dossier 035 and concept note "RL for computer-use and tool-use agents"; ten existing dossiers updated with dated 2026 evidence and caveats.
+- Claim ledger extended to C019. C006 upgraded on an independent AAAI 2026 replication of the spurious-rewards result; C007 revised: the inoculation-prompting mitigation clause is now multi-lineage but contested, the production-RL generalization clause remains single-lineage.
+- Refresh-cliff removal: `scripts/stagger_refresh_dates.py` staggers `refresh_due` across volatility tiers (30d live docs, 90d churn-prone pages, 180d fast-moving papers, 365d settled sources) so no single-day refresh cliff exists.
+- Domain metadata shortened: `#domain/reinforcement-learning` replaces the truncated generator tag across the template, demo vault, generator constants, and spec. Migration: vaults scaffolded from 1.0.0 or earlier should search-replace `#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe` once.
+- Template vault frontmatter dates render as 2026-07-22; `{{date}}` remains only in `_templates/`.
+- Deterministic demo builds: `build_demo_vault.py` pins a demo date for calendar-independent CI drift checks (sample vault and regenerated canon); sha256 fixture regenerated.
+- Agent modernization: secretary model and tools frontmatter added for `claude-fable-5`, with five curators set to `claude-sonnet-5`; descriptions rewritten grammatically.
+- Harness additions: em-dash blocking PostToolUse hook (`scripts/check_no_em_dash.py`) with project settings allowlist.
+- Version reconciliation across plugin metadata, CI packaging, package `__version__`, tests, and docs. Note: the generator-owned `ci.yml` version literal was hand-edited and must be reapplied after future generator upgrades.
+
 ## 1.0.0 - 2026-07-22
 
 Market-ready release. Brainstein audit 100/100, coach grade SSS+, zero critical failures.

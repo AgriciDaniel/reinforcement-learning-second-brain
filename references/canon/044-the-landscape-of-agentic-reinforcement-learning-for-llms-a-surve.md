@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "044. The Landscape of Agentic Reinforcement Learning for LLMs A Survey"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -41,7 +41,7 @@ Ledger: 044 | source: The Landscape of Agentic Reinforcement Learning for LLMs A
 
 ## Source
 
-Source: [The Landscape of Agentic Reinforcement Learning for LLMs A Survey](https://arxiv.org/abs/2509.02547); type primary; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [The Landscape of Agentic Reinforcement Learning for LLMs A Survey](https://arxiv.org/abs/2509.02547); type primary; retrieved 2026-07-22; refresh_due 2027-01-22.
 
 ## Brain Hooks
 

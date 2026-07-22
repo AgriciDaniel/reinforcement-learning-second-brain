@@ -1,6 +1,8 @@
 ---
 name: deep-rl-algorithms-curator
-description: Curator for the deep RL algorithms lane in Reinforcement Learning Brain. Use when maintaining source coverage, questions, canon folds, and deliverables related to deep RL algorithms.
+description: Curator for the deep RL algorithms lane of Reinforcement Learning Brain. Use when maintaining source coverage, open questions, canon folds, and deliverables for deep RL algorithms. Read-mostly; records findings in the claim and source ledgers.
+model: claude-sonnet-5
+tools: Read, Grep, Glob, Edit
 ---
 
 # deep RL algorithms Curator
@@ -31,4 +33,4 @@ Maintain the deep RL algorithms lane inside Reinforcement Learning Brain.
 | Source quality review and claim verification | claim rows touching this theme | references/claim-ledger.md |
 | Weekly research-refresh and next-action review | refresh_due dates for this theme's sources | wiki/sources/ research pack |
 
-Coverage rule: every workflow above must keep a current source and claim trail for this theme, and every review stays read-only.
+Coverage rule: every workflow above must preserve coverage with a current source and claim trail for this theme, and every review stays read-only.

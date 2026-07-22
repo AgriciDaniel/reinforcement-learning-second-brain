@@ -4,7 +4,7 @@ Status: required before researched or market-ready maturity.
 
 ## Source Targets
 
-- Official product, platform, API, vendor, regulator, or standards-body docs for reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices.
+- Official product, platform, API, vendor, regulator, or standards-body docs for reinforcement learning.
 - Primary datasets or exports the buyer already controls.
 - Dated practitioner sources only as supporting evidence.
 - Market evidence for buyer pain, recurring workflows, and paid demand.

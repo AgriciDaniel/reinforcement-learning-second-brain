@@ -2,7 +2,7 @@
 spec_version: 3
 slug: "reinforcement-learning-brain"
 title: "Reinforcement Learning Brain"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 buyer: "ML engineers, researchers, and AI builders who need repeatable, source-cited reinforcement learning decisions, from classic RL through modern LLM post-training."
 owner: "Daniel Agrici"
 repo_url: "https://github.com/AgriciDaniel/reinforcement-learning-second-brain"

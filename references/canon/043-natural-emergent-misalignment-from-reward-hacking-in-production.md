@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "043. Natural emergent misalignment from reward hacking in production RL (Anthropic)"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -42,7 +42,7 @@ Ledger: 043 | source: Natural emergent misalignment from reward hacking in produ
 
 ## Source
 
-Source: [Natural emergent misalignment from reward hacking in production RL (Anthropic)](https://www.anthropic.com/research/emergent-misalignment-reward-hacking); type vendor; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [Natural emergent misalignment from reward hacking in production RL (Anthropic)](https://www.anthropic.com/research/emergent-misalignment-reward-hacking); type vendor; retrieved 2026-07-22; refresh_due 2026-10-23.
 
 ## Brain Hooks
 

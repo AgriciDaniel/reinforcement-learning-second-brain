@@ -1,12 +1,12 @@
 ---
 type: "deliverable"
 title: "Health Scorecard"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "draft"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/deliverable"
   - "#confidence/practitioner"
 confidence: "practitioner"
@@ -24,7 +24,7 @@ source_urls: []
 
 | Source | Hash | Retrieved |
 |---|---|---:|
-| `.raw/sources/sample-source.md` | `0d5d9ebd6898` | 2026-07-22 |
+| `.raw/sources/sample-source.md` | `6990c1a1e34c` | 2026-07-22 |
 
 ## Current Read
 

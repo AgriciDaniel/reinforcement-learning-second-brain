@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "069. Distributional Reinforcement Learning (Bellemare, Dabney, Rowland; MIT Press)"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -41,7 +41,7 @@ Ledger: 069 | source: Distributional Reinforcement Learning (Bellemare, Dabney, 
 
 ## Source
 
-Source: [Distributional Reinforcement Learning (Bellemare, Dabney, Rowland; MIT Press)](https://www.distributional-rl.org/); type primary; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [Distributional Reinforcement Learning (Bellemare, Dabney, Rowland; MIT Press)](https://www.distributional-rl.org/); type primary; retrieved 2026-07-22; refresh_due 2027-08-01.
 
 ## Brain Hooks
 

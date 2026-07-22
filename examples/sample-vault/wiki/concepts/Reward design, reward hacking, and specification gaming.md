@@ -1,12 +1,12 @@
 ---
 type: "concept"
 title: "Reward design, reward hacking, and specification gaming"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/concept"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -59,6 +59,8 @@ This distinction matters because high return can demonstrate successful optimiza
 - A learned reward model moves specification work into data collection and generalization; it does not remove the proxy gap or the possibility of exploitation. [evidence-based]
 - Reward tampering differs from ordinary proxy exploitation because the agent changes or influences the mechanism that represents or delivers reward. [evidence-based]
 - Training return is an optimization diagnostic, not a sufficient measure of task validity, safety, or real-world utility. [practitioner]
+- A mitigation that looks effective on ordinary prompts can still fail on contextual triggers, so standard safety evaluation alone is not a sufficient absence-of-risk test. [evidence-based]
+- Monitoring, prevention, response, and measurement address different oversight functions and should be evaluated as separate controls. [practitioner]
 
 ## Best Practices
 
@@ -70,6 +72,9 @@ This distinction matters because high return can demonstrate successful optimiza
 - For learned rewards, collect fresh comparisons from current policies and specifically label suspicious high-score, high-uncertainty, and out-of-distribution behavior. [evidence-based]
 - Vary simulator parameters, initial states, observation channels, and hidden test conditions so that a single abstraction error is less likely to define the learned strategy. [practitioner]
 - Treat reward caps, ensembles, and multiple proxies as partial mitigations, since correlated blind spots can remain and ordinary low-payoff exploits can survive capping. [evidence-based]
+- Test a prompt matrix containing ordinary, semantically similar, semantically opposite, and exact train-time prompt forms, and include both on-policy and off-policy training variants where the intervention is evaluated. [practitioner]
+- When coding-agent training or selection can see validation tests, report visible-test and held-out-composition-test results separately and inspect the gap for proxy optimization. [practitioner]
+- Define monitoring, prevention, response, and measurement owners before deployment, and track coverage, recall, and time-to-response as distinct operational signals. [practitioner]
 
 ## Evidence Caveats
 
@@ -80,6 +85,9 @@ This distinction matters because high return can demonstrate successful optimiza
 - Adversarial testing can discover counterexamples but cannot certify their absence in an open-ended environment.
 - Human feedback and learned reward models can reduce dependence on hand-coded rewards while introducing annotator, coverage, calibration, and extrapolation errors.
 - The cited sources do not establish a universal reward-design recipe, a complete solution to reward tampering, or a scalar metric that certifies alignment.
+- The conditional-misalignment study is a related fine-tuning and contextual-evaluation result, not an independent replication or refutation of the full production-coding-RL pathway reported by Anthropic. [evidence-based]
+- SpecBench is a 2026 preprint with benchmark-specific visible and held-out test construction; it does not establish how often deployed coding agents reward-hack. [contested]
+- The AI Control Roadmap is vendor guidance, so its proposed oversight layers require task-specific validation and do not constitute a general safety guarantee. [practitioner]
 
 ## Sources
 
@@ -88,6 +96,9 @@ This distinction matters because high return can demonstrate successful optimiza
 - Victoria Krakovna, Jonathan Uesato, Vladimir Mikulik, Matthew Rahtz, Tom Everitt, Ramana Kumar, Zac Kenton, Jan Leike, and Shane Legg (2020), *Specification gaming: the flip side of AI ingenuity*, Google DeepMind: https://deepmind.google/blog/specification-gaming-the-flip-side-of-ai-ingenuity/
 - Andrew Y. Ng, Daishi Harada, and Stuart Russell (1999), *Policy Invariance Under Reward Transformations: Theory and Application to Reward Shaping*, ICML 1999: https://people.eecs.berkeley.edu/~pabbeel/cs287-fa09/readings/NgHaradaRussell-shaping-ICML1999.pdf
 - Paul F. Christiano, Jan Leike, Tom B. Brown, Miljan Martic, Shane Legg, and Dario Amodei (2017), *Deep Reinforcement Learning from Human Preferences*, arXiv:1706.03741: https://arxiv.org/abs/1706.03741
+- "Conditional misalignment: common interventions can hide emergent misalignment behind contextual triggers," [arXiv:2604.25891](https://arxiv.org/abs/2604.25891), 2026-04-28.
+- "SpecBench: Measuring Reward Hacking in Long-Horizon Coding Agents," [arXiv:2605.21384](https://arxiv.org/abs/2605.21384), 2026-05-20.
+- Google DeepMind, 2026, "Securing the future of AI agents," [AI Control Roadmap](https://deepmind.google/blog/securing-the-future-of-ai-agents/), 2026-06-18.
 - [[Source Manifest Guide]]
 - [[Claim Verification Flow]]
 

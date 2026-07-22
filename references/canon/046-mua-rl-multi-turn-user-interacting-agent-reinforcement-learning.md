@@ -1,12 +1,12 @@
 ---
 type: "canon"
 title: "046. MUA-RL Multi-turn User-interacting Agent Reinforcement Learning for agentic"
-domain: "reinforcement learning: fundamentals, deep RL, RLHF/RLAIF and preference optimization, evaluation, tooling, and applied best practices"
+domain: "reinforcement learning"
 status: "active"
 created: "2026-07-22"
 updated: "2026-07-22"
 tags:
-  - "#domain/reinforcement-learning-fundamentals-deep-rl-rlhf-rlaif-and-prefe"
+  - "#domain/reinforcement-learning"
   - "#type/canon"
   - "#confidence/evidence-based"
 confidence: "evidence-based"
@@ -41,7 +41,7 @@ Ledger: 046 | source: MUA-RL Multi-turn User-interacting Agent Reinforcement Lea
 
 ## Source
 
-Source: [MUA-RL Multi-turn User-interacting Agent Reinforcement Learning for agentic](https://arxiv.org/abs/2508.18669); type primary; retrieved 2026-07-22; refresh_due 2026-08-21.
+Source: [MUA-RL Multi-turn User-interacting Agent Reinforcement Learning for agentic](https://arxiv.org/abs/2508.18669); type primary; retrieved 2026-07-22; refresh_due 2027-01-27.
 
 ## Brain Hooks
 
